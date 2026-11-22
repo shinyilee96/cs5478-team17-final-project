@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dexcarry"
+version = "1.0.0"
+description = "DexCarry: a mobile robot with one dexterous hand fetching objects two at a time (PyBullet)"
+readme = "README.md"
+requires-python = ">=3.10,<3.11"
+# Versions as in environment.yml, which is the tested set.
+dependencies = [
+    "numpy==1.26.4",
+    "scipy==1.15.2",
+    "pybullet==3.2.5",
+    "pandas==2.3.3",
+    "matplotlib==3.10.9",
+    "pyyaml==6.0.3",
+    "trimesh==5.1.0",
+    "scikit-learn==1.7.2",
+    "gymnasium==0.29.1",
+    "stable-baselines3==2.3.2",
+    "torch==2.6.0",
+    "imageio==2.37.4",
+]
+
+[tool.setuptools.packages.find]
+include = ["dexcarry*"]

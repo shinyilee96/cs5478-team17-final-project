@@ -1,0 +1,6 @@
+Figure 2b and Section 5.4: the failure-aware planner against the greedy planner, round table, 4 m, delivery rate change
+  random layouts: failure-aware - greedy                       +2.0% (-4.0 to +8.7)       report +2.0% (-4.0 to +8.7)       matches
+  partner scarcity: failure-aware - greedy                     +6.2% (-1.6 to +14.1)      report +6.2% (-1.6 to +14.1)      matches
+  partner scarcity, greedy: first trip took the tempting pair  72 of 72                   report 72 of 72                   matches
+  partner scarcity: box delivered (greedy, failure-aware)      57 of 72, 72 of 72         report 57 of 72, 72 of 72         matches
+  all values match the report

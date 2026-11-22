@@ -1,0 +1,9 @@
+Section 5.2: arms and trips at 4 m (all three settings), and the long table's break-even fit (standard setting, 1-16 m)
+  delivery share at 4 m, DexCarry (round, long)                               84%, 84%                   report 84%, 84%                   matches
+  delivery share at 4 m, baseline (round, long)                               88%, 93%                   report 88%, 93%                   matches
+  median trip at 4 m: two-object (round, long)                                75 s, 76 s                 report 75 s, 76 s                 matches
+  median trip at 4 m: single-object (round, long)                             58 s, 56 s                 report 58 s, 56 s                 matches
+  trips ending with a failure code at 4 m (round): two-object, single-object  32%, 12%                   report 32%, 12%                   matches
+  trips ending with a failure code at 4 m (long): two-object, single-object   46%, 7%                    report 46%, 7%                    matches
+  long table break-even distance (fit, 'around 1 m')                          0.66 m (-0.49 to 2.73)     report 0.66 m (-0.49 to 2.73)     matches
+  all values match the report

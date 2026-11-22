@@ -1,0 +1,77 @@
+# LEAP hand (right), from MuJoCo Menagerie. 16 joints, 4 fingers.
+name: leap
+menagerie_xml: leap_hand/right_hand.xml     # relative to configs/paths.yaml: menagerie_dir
+root_body: palm
+n_joints: 16
+
+# Our canonical joint order. It equals the actuator order in the Menagerie file.
+# Every grasp vector, dataset adapter and controller uses this order.
+joint_order:
+  - if_mcp
+  - if_rot
+  - if_pip
+  - if_dip
+  - mf_mcp
+  - mf_rot
+  - mf_pip
+  - mf_dip
+  - rf_mcp
+  - rf_rot
+  - rf_pip
+  - rf_dip
+  - th_cmc
+  - th_axl
+  - th_mcp
+  - th_ipl
+
+# Joints that flex the finger toward the palm (positive = closing).
+flexion_joints: [if_mcp, if_pip, if_dip, mf_mcp, mf_pip, mf_dip, rf_mcp, rf_pip, rf_dip, th_cmc, th_mcp, th_ipl]
+# Joints that spread the fingers sideways. Held at their grasp value during closing.
+abduction_joints: [if_rot, mf_rot, rf_rot, th_axl]
+
+finger_groups:
+  index: [if_mcp, if_rot, if_pip, if_dip]
+  middle: [mf_mcp, mf_rot, mf_pip, mf_dip]
+  ring: [rf_mcp, rf_rot, rf_pip, rf_dip]
+  thumb: [th_cmc, th_axl, th_mcp, th_ipl]
+
+# Geoms and bodies used for contact detection at the fingertips.
+fingertip_geoms:
+  index: if_tip
+  middle: mf_tip
+  ring: rf_tip
+  thumb: th_tip
+fingertip_bodies:
+  index: if_ds
+  middle: mf_ds
+  ring: rf_ds
+  thumb: th_ds
+
+open_pose: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+# Exact palm-frame axes of this hand model: open fingers point along +x and the palm
+# faces -z. The mount command uses these instead of the kinematic estimate.
+declared_palm_axes:
+  forward: [1.0, 0.0, 0.0]
+  normal: [0.0, 0.0, -1.0]
+
+# Closing controller, shared by the floating-hand tests and the mounted executor
+# (dexcarry/sim/closing.py). A finger flexes toward its grasp joints plus close_delta
+# (radians) and halts once its contact force on the object passes contact_stop_force (N).
+# The fingers that touched then flex a further close_squeeze (radians) together.
+close_delta: 0.35
+contact_stop_force: 0.5
+close_squeeze: 0.03
+
+# Position-control settings when the hand is mounted on Fetch in PyBullet.
+pybullet_position_gain: 0.3
+pybullet_max_force: 1.0        # N.m per joint; LEAP motors are small
+
+# Mounting the hand on Fetch: pose of the palm frame in the wrist_roll_link frame.
+# leap.auto.yaml (estimated from the kinematics) overrides this default.
+fetch_mount:
+  xyz: [0.05, 0.0, 0.0]
+  rpy: [0.0, 0.0, 3.141592653589793]
+
+# Default mass (kg) for links without an inertial block when converting to URDF.
+urdf_default_mass: 0.03

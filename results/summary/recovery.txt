@@ -1,0 +1,4 @@
+Recovery (Table 2): DexCarry at 4 m, all three settings; 48 and 69 failed two-object trips
+  round table: objects saved per failed two-object trip  0.25 (0.06 to 0.50)        report 0.25 (0.06 to 0.50)        matches
+  long table: objects saved per failed two-object trip   0.70 (0.33 to 1.10)        report 0.70 (0.33 to 1.10)        matches
+  all values match the report

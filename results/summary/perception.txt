@@ -1,0 +1,6 @@
+Perception (Table 2): known objects, 21 plans x 20 pickups per pose source; unseen objects, 16 pairs; points of both objects held
+  known objects: estimated - exact poses                       +1.7 (-4.0 to +7.9)        report +1.7 (-4.0 to +7.9)        matches
+  unseen objects: primitive library - random primitive plan    +12.9 (+6.9 to +19.0)      report +12.9 (+6.9 to +19.0)      matches
+  unseen objects: primitive library, both held (%)             42.0 (26.8 to 58.2)        report 42.0 (26.8 to 58.2)        matches
+  unseen objects: true shape (privileged) - primitive library  +18.2 (+0.4 to +35.9)      report +18.2 (+0.4 to +35.9)      matches
+  all values match the report

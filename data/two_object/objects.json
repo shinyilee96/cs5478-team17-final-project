@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "objects": [
+    {
+      "object_id": "ycb-sugar-box",
+      "half_extents": [
+        0.046065985000000004,
+        0.022572105000000002,
+        0.088023905
+      ],
+      "mass": 0.63793,
+      "friction": 0.8,
+      "visual_mesh": "meshes/ycb-sugar-box/visual.obj",
+      "collision_meshes": [
+        "meshes/ycb-sugar-box/piece_000.obj",
+        "meshes/ycb-sugar-box/piece_001.obj"
+      ],
+      "scale": 1.0
+    },
+    {
+      "object_id": "dgn-bottle",
+      "half_extents": [
+        0.020626246199999997,
+        0.020614839000000003,
+        0.0534639057
+      ],
+      "mass": 0.1,
+      "friction": 0.8,
+      "visual_mesh": "meshes/dgn-bottle/visual.obj",
+      "collision_meshes": [
+        "meshes/dgn-bottle/piece_000.obj",
+        "meshes/dgn-bottle/piece_001.obj",
+        "meshes/dgn-bottle/piece_002.obj",
+        "meshes/dgn-bottle/piece_003.obj",
+        "meshes/dgn-bottle/piece_004.obj",
+        "meshes/dgn-bottle/piece_005.obj",
+        "meshes/dgn-bottle/piece_006.obj",
+        "meshes/dgn-bottle/piece_007.obj"
+      ],
+      "scale": 1.0
+    },
+    {
+      "object_id": "dgn-can",
+      "half_extents": [
+        0.0206284047,
+        0.020615524500000003,
+        0.0535284072
+      ],
+      "mass": 0.1,
+      "friction": 0.8,
+      "visual_mesh": "meshes/dgn-can/visual.obj",
+      "collision_meshes": [
+        "meshes/dgn-can/piece_000.obj"
+      ],
+      "scale": 1.0
+    },
+    {
+      "object_id": "dgn-carton",
+      "half_extents": [
+        0.0233834949,
+        0.0140931045,
+        0.053623296599999995
+      ],
+      "mass": 0.1,
+      "friction": 0.8,
+      "visual_mesh": "meshes/dgn-carton/visual.obj",
+      "collision_meshes": [
+        "meshes/dgn-carton/piece_000.obj"
+      ],
+      "scale": 1.0
+    }
+  ]
+}

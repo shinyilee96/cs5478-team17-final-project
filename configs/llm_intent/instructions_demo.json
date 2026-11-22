@@ -1,0 +1,112 @@
+{
+ "label": "Demo only: the instructions of the medicine video, not part of any result. Each was compiled once by the live model. Attempt 1 was ambiguous and missed the bottle; attempt 2 was the last with prompt v1; M03 uses prompt v2.",
+ "semantics": "as instructions_eval.json",
+ "instructions": [
+  {
+   "id": "M01",
+   "layout": 0,
+   "kind": "combined",
+   "attempt": 1,
+   "objects": "first_layout",
+   "text": "Fetch the medicine for my kid, the pills and some juice to wash it down. The medicine matters most.",
+   "intent": {
+    "fetch": [
+     "medicine bottle",
+     "pill box",
+     "juice can"
+    ],
+    "priority": [
+     "medicine bottle"
+    ],
+    "before": [],
+    "never_pair": []
+   }
+  },
+  {
+   "id": "M02",
+   "layout": 0,
+   "kind": "combined",
+   "attempt": 2,
+   "text": "My kid has a fever. Bring what she needs to take her medicine, and something sweet for after.",
+   "intent": {
+    "fetch": [
+     "medicine bottle",
+     "pill box",
+     "juice can",
+     "sweets"
+    ],
+    "priority": [
+     "medicine bottle"
+    ],
+    "before": [
+     [
+      "medicine bottle",
+      "sweets"
+     ],
+     [
+      "pill box",
+      "sweets"
+     ]
+    ],
+    "never_pair": []
+   }
+  },
+  {
+   "id": "M03",
+   "layout": 0,
+   "kind": "combined",
+   "attempt": 3,
+   "prompt": "v2",
+   "text": "My kid has to take her tablets. Bring what she needs, and a treat for after.",
+   "intent": {
+    "fetch": [
+     "pill box",
+     "juice can",
+     "sweets"
+    ],
+    "priority": [
+     "pill box"
+    ],
+    "before": [
+     [
+      "pill box",
+      "sweets"
+     ]
+    ],
+    "never_pair": []
+   },
+   "allowed_extra": [
+    "medicine bottle"
+   ],
+   "rule": "exact after removing the medicine bottle (and any entry naming it) from the answer; the treat is the layout's one treat (sweets); priority must contain the pill box and nothing but the pill box and the bottle"
+  },
+  {
+   "id": "M04",
+   "layout": 0,
+   "kind": "combined",
+   "attempt": 4,
+   "prompt": "v3",
+   "model": "gpt-6-astra",
+   "roles": "demo",
+   "text": "My kid has to take her tablets. Bring what she needs, and a treat for after.",
+   "intent": {
+    "fetch": [
+     "pill box",
+     "water bottle",
+     "sweets"
+    ],
+    "priority": [
+     "pill box"
+    ],
+    "before": [
+     [
+      "pill box",
+      "sweets"
+     ]
+    ],
+    "never_pair": []
+   },
+   "rule": "Accepted if: fetch = pill box, water bottle, sweets, plus optionally the medicine bottle; priority = pill box exactly; before must include pill box -> sweets, and may add only other '-> sweets' rules from fetched objects; never_pair empty. Anything else is a miss."
+  }
+ ]
+}

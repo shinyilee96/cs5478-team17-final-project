@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "objects": [
+    {
+      "object_id": "ndgn-4",
+      "half_extents": [
+        0.0340597809,
+        0.0200842818,
+        0.046283680199999996
+      ],
+      "mass": 0.1,
+      "friction": 0.8,
+      "visual_mesh": "meshes/ndgn-4/visual.obj",
+      "collision_meshes": [
+        "meshes/ndgn-4/piece_000.obj"
+      ],
+      "scale": 1.0
+    },
+    {
+      "object_id": "ndgn-5",
+      "half_extents": [
+        0.022593147,
+        0.0225523989,
+        0.05174110829999999
+      ],
+      "mass": 0.1,
+      "friction": 0.8,
+      "visual_mesh": "meshes/ndgn-5/visual.obj",
+      "collision_meshes": [
+        "meshes/ndgn-5/piece_000.obj",
+        "meshes/ndgn-5/piece_001.obj",
+        "meshes/ndgn-5/piece_002.obj",
+        "meshes/ndgn-5/piece_003.obj",
+        "meshes/ndgn-5/piece_004.obj",
+        "meshes/ndgn-5/piece_005.obj",
+        "meshes/ndgn-5/piece_006.obj",
+        "meshes/ndgn-5/piece_007.obj",
+        "meshes/ndgn-5/piece_008.obj",
+        "meshes/ndgn-5/piece_009.obj",
+        "meshes/ndgn-5/piece_010.obj",
+        "meshes/ndgn-5/piece_011.obj",
+        "meshes/ndgn-5/piece_012.obj",
+        "meshes/ndgn-5/piece_013.obj",
+        "meshes/ndgn-5/piece_014.obj",
+        "meshes/ndgn-5/piece_015.obj",
+        "meshes/ndgn-5/piece_016.obj",
+        "meshes/ndgn-5/piece_017.obj",
+        "meshes/ndgn-5/piece_018.obj",
+        "meshes/ndgn-5/piece_019.obj",
+        "meshes/ndgn-5/piece_020.obj",
+        "meshes/ndgn-5/piece_021.obj"
+      ],
+      "scale": 1.0
+    },
+    {
+      "object_id": "ndgn-6",
+      "half_extents": [
+        0.024618668999999996,
+        0.0234920739,
+        0.05061316589999999
+      ],
+      "mass": 0.1,
+      "friction": 0.8,
+      "visual_mesh": "meshes/ndgn-6/visual.obj",
+      "collision_meshes": [
+        "meshes/ndgn-6/piece_000.obj",
+        "meshes/ndgn-6/piece_001.obj",
+        "meshes/ndgn-6/piece_002.obj",
+        "meshes/ndgn-6/piece_003.obj",
+        "meshes/ndgn-6/piece_004.obj",
+        "meshes/ndgn-6/piece_005.obj",
+        "meshes/ndgn-6/piece_006.obj",
+        "meshes/ndgn-6/piece_007.obj",
+        "meshes/ndgn-6/piece_008.obj",
+        "meshes/ndgn-6/piece_009.obj",
+        "meshes/ndgn-6/piece_010.obj",
+        "meshes/ndgn-6/piece_011.obj"
+      ],
+      "scale": 1.0
+    },
+    {
+      "object_id": "ndgn-7",
+      "half_extents": [
+        0.0226028868,
+        0.022590786599999996,
+        0.05174249609999999
+      ],
+      "mass": 0.1,
+      "friction": 0.8,
+      "visual_mesh": "meshes/ndgn-7/visual.obj",
+      "collision_meshes": [
+        "meshes/ndgn-7/piece_000.obj",
+        "meshes/ndgn-7/piece_001.obj",
+        "meshes/ndgn-7/piece_002.obj",
+        "meshes/ndgn-7/piece_003.obj",
+        "meshes/ndgn-7/piece_004.obj",
+        "meshes/ndgn-7/piece_005.obj",
+        "meshes/ndgn-7/piece_006.obj",
+        "meshes/ndgn-7/piece_007.obj",
+        "meshes/ndgn-7/piece_008.obj",
+        "meshes/ndgn-7/piece_009.obj",
+        "meshes/ndgn-7/piece_010.obj",
+        "meshes/ndgn-7/piece_011.obj",
+        "meshes/ndgn-7/piece_012.obj",
+        "meshes/ndgn-7/piece_013.obj",
+        "meshes/ndgn-7/piece_014.obj",
+        "meshes/ndgn-7/piece_015.obj",
+        "meshes/ndgn-7/piece_016.obj",
+        "meshes/ndgn-7/piece_017.obj"
+      ],
+      "scale": 1.0
+    },
+    {
+      "object_id": "ndgn-8",
+      "half_extents": [
+        0.0201957654,
+        0.0201730836,
+        0.0536777403
+      ],
+      "mass": 0.1,
+      "friction": 0.8,
+      "visual_mesh": "meshes/ndgn-8/visual.obj",
+      "collision_meshes": [
+        "meshes/ndgn-8/piece_000.obj",
+        "meshes/ndgn-8/piece_001.obj",
+        "meshes/ndgn-8/piece_002.obj",
+        "meshes/ndgn-8/piece_003.obj"
+      ],
+      "scale": 1.0
+    },
+    {
+      "object_id": "ndgn-9",
+      "half_extents": [
+        0.029534764499999998,
+        0.0200662209,
+        0.0484314465
+      ],
+      "mass": 0.1,
+      "friction": 0.8,
+      "visual_mesh": "meshes/ndgn-9/visual.obj",
+      "collision_meshes": [
+        "meshes/ndgn-9/piece_000.obj"
+      ],
+      "scale": 1.0
+    }
+  ]
+}

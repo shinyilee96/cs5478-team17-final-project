@@ -1,0 +1,730 @@
+{
+ "rule": "Partner-scarcity layouts, built so that a box that often fails alone has few partners. Layouts 0-11 are the ones in the report; 12-23 are a milder version, not used. Positions drawn from random stream 61; plans are the round-table plans of the source layout, re-indexed. Success odds measured on development seeds (privileged).",
+ "spacing": 0.27,
+ "strong": 7,
+ "mild": 1,
+ "layouts": [
+  [
+   "ndgn-1",
+   "dgn-can",
+   "can",
+   "ndgn-8"
+  ],
+  [
+   "dgn-can",
+   "can",
+   "ndgn-2",
+   "ndgn-8"
+  ],
+  [
+   "ndgn-1",
+   "dgn-can",
+   "can",
+   "ndgn-2",
+   "ndgn-8"
+  ],
+  [
+   "ndgn-5",
+   "can",
+   "ndgn-1",
+   "ndgn-4",
+   "tall-heavy"
+  ],
+  [
+   "ndgn-3",
+   "can",
+   "nbox-2",
+   "ndgn-6"
+  ],
+  [
+   "ndgn-4",
+   "can",
+   "nbox-2",
+   "ndgn-6"
+  ],
+  [
+   "ndgn-1",
+   "can",
+   "nbox-2",
+   "ndgn-6"
+  ],
+  [
+   "ndgn-3",
+   "ndgn-4",
+   "can",
+   "nbox-2",
+   "ndgn-6"
+  ],
+  [
+   "ndgn-6",
+   "bar-3cm",
+   "ndgn-4",
+   "can"
+  ],
+  [
+   "ndgn-6",
+   "ndgn-3",
+   "dgn-can",
+   "can"
+  ],
+  [
+   "bar-3cm",
+   "ndgn-3",
+   "dgn-can",
+   "can"
+  ],
+  [
+   "bar-3cm",
+   "ndgn-3",
+   "dgn-can",
+   "ndgn-4",
+   "can"
+  ],
+  [
+   "tall-heavy",
+   "ndgn-4",
+   "ndgn-7",
+   "ndgn-8"
+  ],
+  [
+   "ndgn-9",
+   "tall-heavy",
+   "ndgn-7",
+   "bar-3cm"
+  ],
+  [
+   "tall-heavy",
+   "ndgn-7",
+   "bar-3cm",
+   "ndgn-4"
+  ],
+  [
+   "ndgn-9",
+   "tall-heavy",
+   "ndgn-7",
+   "bar-3cm",
+   "ndgn-4"
+  ],
+  [
+   "nbox-3",
+   "nbox-2",
+   "ndgn-7",
+   "ndgn-2"
+  ],
+  [
+   "nbox-3",
+   "ndgn-9",
+   "ndgn-7",
+   "ndgn-6"
+  ],
+  [
+   "nbox-3",
+   "ndgn-7",
+   "ndgn-6",
+   "ndgn-2"
+  ],
+  [
+   "nbox-2",
+   "ndgn-7",
+   "ndgn-6",
+   "ndgn-2"
+  ],
+  [
+   "nbox-3",
+   "nbox-2",
+   "ndgn-9",
+   "ndgn-7",
+   "ndgn-2"
+  ],
+  [
+   "nbox-3",
+   "ndgn-9",
+   "ndgn-7",
+   "ndgn-6",
+   "ndgn-2"
+  ],
+  [
+   "nbox-2",
+   "ndgn-9",
+   "ndgn-7",
+   "ndgn-6",
+   "ndgn-2"
+  ],
+  [
+   "ndgn-5",
+   "ndgn-7",
+   "ndgn-1",
+   "tall-heavy"
+  ]
+ ],
+ "entries": [
+  {
+   "source": 5,
+   "idx": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "names": [
+    "ndgn-1",
+    "dgn-can",
+    "can",
+    "ndgn-8"
+   ],
+   "U": "can",
+   "partners": [
+    "dgn-can",
+    "ndgn-8"
+   ],
+   "cell": "strong",
+   "cell_number": 7,
+   "lure": "lure"
+  },
+  {
+   "source": 5,
+   "idx": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "names": [
+    "dgn-can",
+    "can",
+    "ndgn-2",
+    "ndgn-8"
+   ],
+   "U": "can",
+   "partners": [
+    "dgn-can",
+    "ndgn-8"
+   ],
+   "cell": "strong",
+   "cell_number": 7,
+   "lure": "lure"
+  },
+  {
+   "source": 5,
+   "idx": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "names": [
+    "ndgn-1",
+    "dgn-can",
+    "can",
+    "ndgn-2",
+    "ndgn-8"
+   ],
+   "U": "can",
+   "partners": [
+    "dgn-can",
+    "ndgn-8"
+   ],
+   "cell": "strong",
+   "cell_number": 7,
+   "lure": "lure"
+  },
+  {
+   "source": 9,
+   "idx": [
+    0,
+    2,
+    3,
+    4,
+    5
+   ],
+   "names": [
+    "ndgn-5",
+    "can",
+    "ndgn-1",
+    "ndgn-4",
+    "tall-heavy"
+   ],
+   "U": "can",
+   "partners": [
+    "ndgn-5",
+    "tall-heavy"
+   ],
+   "cell": "strong",
+   "cell_number": 7,
+   "lure": "lure"
+  },
+  {
+   "source": 10,
+   "idx": [
+    0,
+    3,
+    4,
+    5
+   ],
+   "names": [
+    "ndgn-3",
+    "can",
+    "nbox-2",
+    "ndgn-6"
+   ],
+   "U": "can",
+   "partners": [
+    "nbox-2",
+    "ndgn-6"
+   ],
+   "cell": "strong",
+   "cell_number": 7,
+   "lure": "lure"
+  },
+  {
+   "source": 10,
+   "idx": [
+    1,
+    3,
+    4,
+    5
+   ],
+   "names": [
+    "ndgn-4",
+    "can",
+    "nbox-2",
+    "ndgn-6"
+   ],
+   "U": "can",
+   "partners": [
+    "nbox-2",
+    "ndgn-6"
+   ],
+   "cell": "strong",
+   "cell_number": 7,
+   "lure": "lure"
+  },
+  {
+   "source": 10,
+   "idx": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "names": [
+    "ndgn-1",
+    "can",
+    "nbox-2",
+    "ndgn-6"
+   ],
+   "U": "can",
+   "partners": [
+    "nbox-2",
+    "ndgn-6"
+   ],
+   "cell": "strong",
+   "cell_number": 7,
+   "lure": "lure"
+  },
+  {
+   "source": 10,
+   "idx": [
+    0,
+    1,
+    3,
+    4,
+    5
+   ],
+   "names": [
+    "ndgn-3",
+    "ndgn-4",
+    "can",
+    "nbox-2",
+    "ndgn-6"
+   ],
+   "U": "can",
+   "partners": [
+    "nbox-2",
+    "ndgn-6"
+   ],
+   "cell": "strong",
+   "cell_number": 7,
+   "lure": "lure"
+  },
+  {
+   "source": 11,
+   "idx": [
+    0,
+    1,
+    4,
+    5
+   ],
+   "names": [
+    "ndgn-6",
+    "bar-3cm",
+    "ndgn-4",
+    "can"
+   ],
+   "U": "can",
+   "partners": [
+    "ndgn-6",
+    "bar-3cm"
+   ],
+   "cell": "strong",
+   "cell_number": 7,
+   "lure": "lure"
+  },
+  {
+   "source": 11,
+   "idx": [
+    0,
+    2,
+    3,
+    5
+   ],
+   "names": [
+    "ndgn-6",
+    "ndgn-3",
+    "dgn-can",
+    "can"
+   ],
+   "U": "can",
+   "partners": [
+    "ndgn-6",
+    "dgn-can"
+   ],
+   "cell": "strong",
+   "cell_number": 7,
+   "lure": "lure"
+  },
+  {
+   "source": 11,
+   "idx": [
+    1,
+    2,
+    3,
+    5
+   ],
+   "names": [
+    "bar-3cm",
+    "ndgn-3",
+    "dgn-can",
+    "can"
+   ],
+   "U": "can",
+   "partners": [
+    "bar-3cm",
+    "dgn-can"
+   ],
+   "cell": "strong",
+   "cell_number": 7,
+   "lure": "lure"
+  },
+  {
+   "source": 11,
+   "idx": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "names": [
+    "bar-3cm",
+    "ndgn-3",
+    "dgn-can",
+    "ndgn-4",
+    "can"
+   ],
+   "U": "can",
+   "partners": [
+    "bar-3cm",
+    "dgn-can"
+   ],
+   "cell": "strong",
+   "cell_number": 7,
+   "lure": "lure"
+  },
+  {
+   "source": 1,
+   "idx": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "names": [
+    "tall-heavy",
+    "ndgn-4",
+    "ndgn-7",
+    "ndgn-8"
+   ],
+   "U": "ndgn-7",
+   "partners": [
+    "tall-heavy",
+    "ndgn-8"
+   ],
+   "cell": "mild",
+   "cell_number": 1,
+   "lure": "lure"
+  },
+  {
+   "source": 6,
+   "idx": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "names": [
+    "ndgn-9",
+    "tall-heavy",
+    "ndgn-7",
+    "bar-3cm"
+   ],
+   "U": "ndgn-7",
+   "partners": [
+    "tall-heavy",
+    "bar-3cm"
+   ],
+   "cell": "mild",
+   "cell_number": 1,
+   "lure": "lure"
+  },
+  {
+   "source": 6,
+   "idx": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "names": [
+    "tall-heavy",
+    "ndgn-7",
+    "bar-3cm",
+    "ndgn-4"
+   ],
+   "U": "ndgn-7",
+   "partners": [
+    "tall-heavy",
+    "bar-3cm"
+   ],
+   "cell": "mild",
+   "cell_number": 1,
+   "lure": "lure"
+  },
+  {
+   "source": 6,
+   "idx": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "names": [
+    "ndgn-9",
+    "tall-heavy",
+    "ndgn-7",
+    "bar-3cm",
+    "ndgn-4"
+   ],
+   "U": "ndgn-7",
+   "partners": [
+    "tall-heavy",
+    "bar-3cm"
+   ],
+   "cell": "mild",
+   "cell_number": 1,
+   "lure": "lure"
+  },
+  {
+   "source": 8,
+   "idx": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "names": [
+    "nbox-3",
+    "nbox-2",
+    "ndgn-7",
+    "ndgn-2"
+   ],
+   "U": "ndgn-7",
+   "partners": [
+    "nbox-3",
+    "nbox-2"
+   ],
+   "cell": "mild",
+   "cell_number": 1,
+   "lure": "lure"
+  },
+  {
+   "source": 8,
+   "idx": [
+    0,
+    2,
+    3,
+    4
+   ],
+   "names": [
+    "nbox-3",
+    "ndgn-9",
+    "ndgn-7",
+    "ndgn-6"
+   ],
+   "U": "ndgn-7",
+   "partners": [
+    "nbox-3",
+    "ndgn-6"
+   ],
+   "cell": "mild",
+   "cell_number": 1,
+   "lure": "lure"
+  },
+  {
+   "source": 8,
+   "idx": [
+    0,
+    3,
+    4,
+    5
+   ],
+   "names": [
+    "nbox-3",
+    "ndgn-7",
+    "ndgn-6",
+    "ndgn-2"
+   ],
+   "U": "ndgn-7",
+   "partners": [
+    "nbox-3",
+    "ndgn-6"
+   ],
+   "cell": "mild",
+   "cell_number": 1,
+   "lure": "lure"
+  },
+  {
+   "source": 8,
+   "idx": [
+    1,
+    3,
+    4,
+    5
+   ],
+   "names": [
+    "nbox-2",
+    "ndgn-7",
+    "ndgn-6",
+    "ndgn-2"
+   ],
+   "U": "ndgn-7",
+   "partners": [
+    "nbox-2",
+    "ndgn-6"
+   ],
+   "cell": "mild",
+   "cell_number": 1,
+   "lure": "lure"
+  },
+  {
+   "source": 8,
+   "idx": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "names": [
+    "nbox-3",
+    "nbox-2",
+    "ndgn-9",
+    "ndgn-7",
+    "ndgn-2"
+   ],
+   "U": "ndgn-7",
+   "partners": [
+    "nbox-3",
+    "nbox-2"
+   ],
+   "cell": "mild",
+   "cell_number": 1,
+   "lure": "lure"
+  },
+  {
+   "source": 8,
+   "idx": [
+    0,
+    2,
+    3,
+    4,
+    5
+   ],
+   "names": [
+    "nbox-3",
+    "ndgn-9",
+    "ndgn-7",
+    "ndgn-6",
+    "ndgn-2"
+   ],
+   "U": "ndgn-7",
+   "partners": [
+    "nbox-3",
+    "ndgn-6"
+   ],
+   "cell": "mild",
+   "cell_number": 1,
+   "lure": "lure"
+  },
+  {
+   "source": 8,
+   "idx": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "names": [
+    "nbox-2",
+    "ndgn-9",
+    "ndgn-7",
+    "ndgn-6",
+    "ndgn-2"
+   ],
+   "U": "ndgn-7",
+   "partners": [
+    "nbox-2",
+    "ndgn-6"
+   ],
+   "cell": "mild",
+   "cell_number": 1,
+   "lure": "lure"
+  },
+  {
+   "source": 9,
+   "idx": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "names": [
+    "ndgn-5",
+    "ndgn-7",
+    "ndgn-1",
+    "tall-heavy"
+   ],
+   "U": "ndgn-7",
+   "partners": [
+    "ndgn-5",
+    "tall-heavy"
+   ],
+   "cell": "mild",
+   "cell_number": 1,
+   "lure": "lure"
+  }
+ ]
+}

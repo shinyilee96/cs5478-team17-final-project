@@ -1,0 +1,7 @@
+# Where things live, relative to the repository root unless absolute.
+# Override the data directory with the environment variable DEXCARRY_DATA_DIR.
+default_pnr_dir: assets/pick_nav_reach   # the course repository (its assets/fetch holds the Fetch robot)
+menagerie_dir: assets/mujoco_menagerie   # MuJoCo Menagerie (its leap_hand holds the LEAP hand)
+data_dir: data                           # prepared objects (setup/prepare_data.py) and the merged robot model (built on first use)
+outputs_dir: runs                        # everything a rerun writes; ignored by git
+external_dir: datasets                   # the original datasets, only to rebuild data/ (see README); ignored by git

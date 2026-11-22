@@ -1,0 +1,1600 @@
+{
+ "E01": {
+  "layout": 0,
+  "compiled": {
+   "fetch": [
+    0,
+    3
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [],
+   "never_pair": []
+  },
+  "correct": {
+   "fetch": [
+    0,
+    3
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [],
+   "never_pair": []
+  }
+ },
+ "E02": {
+  "layout": 0,
+  "compiled": {
+   "fetch": [
+    0,
+    1,
+    3
+   ],
+   "priority": [
+    0
+   ],
+   "weights": [
+    [
+     0,
+     3.0
+    ]
+   ],
+   "before": [],
+   "never_pair": []
+  },
+  "correct": {
+   "fetch": [
+    0,
+    1,
+    3
+   ],
+   "priority": [
+    0
+   ],
+   "weights": [
+    [
+     0,
+     3.0
+    ]
+   ],
+   "before": [],
+   "never_pair": []
+  }
+ },
+ "E03": {
+  "layout": 0,
+  "compiled": {
+   "fetch": [
+    0,
+    1,
+    3
+   ],
+   "priority": [
+    0
+   ],
+   "weights": [
+    [
+     0,
+     3.0
+    ]
+   ],
+   "before": [
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     3
+    ]
+   ],
+   "never_pair": []
+  },
+  "correct": {
+   "fetch": [
+    0,
+    1,
+    3
+   ],
+   "priority": [
+    0
+   ],
+   "weights": [
+    [
+     0,
+     3.0
+    ]
+   ],
+   "before": [
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     3
+    ]
+   ],
+   "never_pair": []
+  }
+ },
+ "E04": {
+  "layout": 1,
+  "compiled": {
+   "fetch": [
+    0,
+    1,
+    3
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [
+    [
+     3,
+     0
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "never_pair": []
+  },
+  "correct": {
+   "fetch": [
+    0,
+    1,
+    3
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [
+    [
+     3,
+     0
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "never_pair": []
+  }
+ },
+ "E05": {
+  "layout": 1,
+  "compiled": {
+   "fetch": [
+    0,
+    3
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [],
+   "never_pair": [
+    [
+     0,
+     3
+    ]
+   ]
+  },
+  "correct": {
+   "fetch": [
+    0,
+    3
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [],
+   "never_pair": [
+    [
+     0,
+     3
+    ]
+   ]
+  }
+ },
+ "E06": {
+  "layout": 1,
+  "compiled": {
+   "fetch": [
+    0,
+    1,
+    3
+   ],
+   "priority": [
+    3
+   ],
+   "weights": [
+    [
+     3,
+     3.0
+    ]
+   ],
+   "before": [],
+   "never_pair": [
+    [
+     0,
+     3
+    ]
+   ]
+  },
+  "correct": {
+   "fetch": [
+    0,
+    1,
+    3
+   ],
+   "priority": [
+    3
+   ],
+   "weights": [
+    [
+     3,
+     3.0
+    ]
+   ],
+   "before": [],
+   "never_pair": [
+    [
+     0,
+     3
+    ]
+   ]
+  }
+ },
+ "E07": {
+  "layout": 2,
+  "compiled": {
+   "fetch": [
+    1,
+    2
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [],
+   "never_pair": []
+  },
+  "correct": {
+   "fetch": [
+    1,
+    2
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [],
+   "never_pair": []
+  }
+ },
+ "E08": {
+  "layout": 2,
+  "compiled": {
+   "fetch": [
+    1,
+    2,
+    3
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [],
+   "never_pair": []
+  },
+  "correct": {
+   "fetch": [
+    1,
+    2,
+    3
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [],
+   "never_pair": []
+  }
+ },
+ "E09": {
+  "layout": 2,
+  "compiled": {
+   "fetch": [
+    0,
+    1,
+    2
+   ],
+   "priority": [
+    0
+   ],
+   "weights": [
+    [
+     0,
+     3.0
+    ]
+   ],
+   "before": [
+    [
+     2,
+     0
+    ],
+    [
+     2,
+     1
+    ]
+   ],
+   "never_pair": []
+  },
+  "correct": {
+   "fetch": [
+    0,
+    1,
+    2
+   ],
+   "priority": [
+    0
+   ],
+   "weights": [
+    [
+     0,
+     3.0
+    ]
+   ],
+   "before": [
+    [
+     2,
+     0
+    ],
+    [
+     2,
+     1
+    ]
+   ],
+   "never_pair": []
+  }
+ },
+ "E10": {
+  "layout": 3,
+  "compiled": {
+   "fetch": [
+    0,
+    1,
+    3
+   ],
+   "priority": [
+    0
+   ],
+   "weights": [
+    [
+     0,
+     3.0
+    ]
+   ],
+   "before": [],
+   "never_pair": []
+  },
+  "correct": {
+   "fetch": [
+    0,
+    1,
+    3
+   ],
+   "priority": [
+    0
+   ],
+   "weights": [
+    [
+     0,
+     3.0
+    ]
+   ],
+   "before": [],
+   "never_pair": []
+  }
+ },
+ "E11": {
+  "layout": 3,
+  "compiled": {
+   "fetch": [
+    0,
+    2
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [],
+   "never_pair": [
+    [
+     0,
+     2
+    ]
+   ]
+  },
+  "correct": {
+   "fetch": [
+    0,
+    2
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [],
+   "never_pair": [
+    [
+     0,
+     2
+    ]
+   ]
+  }
+ },
+ "E12": {
+  "layout": 3,
+  "compiled": {
+   "fetch": [
+    0,
+    1,
+    3
+   ],
+   "priority": [
+    0
+   ],
+   "weights": [
+    [
+     0,
+     3.0
+    ]
+   ],
+   "before": [
+    [
+     3,
+     0
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "never_pair": []
+  },
+  "correct": {
+   "fetch": [
+    0,
+    1,
+    3
+   ],
+   "priority": [
+    0
+   ],
+   "weights": [
+    [
+     0,
+     3.0
+    ]
+   ],
+   "before": [
+    [
+     3,
+     0
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "never_pair": []
+  }
+ },
+ "E13": {
+  "layout": 4,
+  "compiled": {
+   "fetch": [
+    0,
+    2,
+    3
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [],
+   "never_pair": []
+  },
+  "correct": {
+   "fetch": [
+    0,
+    2,
+    3
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [],
+   "never_pair": []
+  }
+ },
+ "E14": {
+  "layout": 4,
+  "compiled": {
+   "fetch": [
+    2,
+    3
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [
+    [
+     3,
+     2
+    ]
+   ],
+   "never_pair": []
+  },
+  "correct": {
+   "fetch": [
+    2,
+    3
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [
+    [
+     3,
+     2
+    ]
+   ],
+   "never_pair": []
+  }
+ },
+ "E15": {
+  "layout": 4,
+  "compiled": {
+   "fetch": [
+    0,
+    2,
+    3
+   ],
+   "priority": [
+    2
+   ],
+   "weights": [
+    [
+     2,
+     3.0
+    ]
+   ],
+   "before": [],
+   "never_pair": [
+    [
+     2,
+     3
+    ]
+   ]
+  },
+  "correct": {
+   "fetch": [
+    0,
+    2,
+    3
+   ],
+   "priority": [
+    2
+   ],
+   "weights": [
+    [
+     2,
+     3.0
+    ]
+   ],
+   "before": [],
+   "never_pair": [
+    [
+     2,
+     3
+    ]
+   ]
+  }
+ },
+ "E16": {
+  "layout": 5,
+  "compiled": {
+   "fetch": [
+    1,
+    2,
+    4
+   ],
+   "priority": [
+    4
+   ],
+   "weights": [
+    [
+     4,
+     3.0
+    ]
+   ],
+   "before": [
+    [
+     2,
+     1
+    ],
+    [
+     4,
+     1
+    ]
+   ],
+   "never_pair": []
+  },
+  "correct": {
+   "fetch": [
+    1,
+    2,
+    4
+   ],
+   "priority": [
+    4
+   ],
+   "weights": [
+    [
+     4,
+     3.0
+    ]
+   ],
+   "before": [
+    [
+     2,
+     1
+    ],
+    [
+     4,
+     1
+    ]
+   ],
+   "never_pair": []
+  }
+ },
+ "E17": {
+  "layout": 5,
+  "compiled": {
+   "fetch": [
+    1,
+    4
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [],
+   "never_pair": [
+    [
+     1,
+     4
+    ]
+   ]
+  },
+  "correct": {
+   "fetch": [
+    1,
+    4
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [],
+   "never_pair": [
+    [
+     1,
+     4
+    ]
+   ]
+  }
+ },
+ "E18": {
+  "layout": 5,
+  "compiled": {
+   "fetch": [
+    1,
+    2,
+    3
+   ],
+   "priority": [
+    2
+   ],
+   "weights": [
+    [
+     2,
+     3.0
+    ]
+   ],
+   "before": [],
+   "never_pair": []
+  },
+  "correct": {
+   "fetch": [
+    1,
+    2,
+    3
+   ],
+   "priority": [
+    2
+   ],
+   "weights": [
+    [
+     2,
+     3.0
+    ]
+   ],
+   "before": [],
+   "never_pair": []
+  }
+ },
+ "E19": {
+  "layout": 5,
+  "compiled": {
+   "fetch": [
+    2,
+    4
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [],
+   "never_pair": []
+  },
+  "correct": {
+   "fetch": [
+    2,
+    4
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [],
+   "never_pair": []
+  }
+ },
+ "E20": {
+  "layout": 6,
+  "compiled": {
+   "fetch": [
+    0,
+    1,
+    3
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [
+    [
+     3,
+     0
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "never_pair": []
+  },
+  "correct": {
+   "fetch": [
+    0,
+    1,
+    3
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [
+    [
+     3,
+     0
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "never_pair": []
+  }
+ },
+ "E21": {
+  "layout": 6,
+  "compiled": {
+   "fetch": [
+    0,
+    1,
+    4
+   ],
+   "priority": [
+    1
+   ],
+   "weights": [
+    [
+     1,
+     3.0
+    ]
+   ],
+   "before": [],
+   "never_pair": []
+  },
+  "correct": {
+   "fetch": [
+    0,
+    1,
+    4
+   ],
+   "priority": [
+    1
+   ],
+   "weights": [
+    [
+     1,
+     3.0
+    ]
+   ],
+   "before": [],
+   "never_pair": []
+  }
+ },
+ "E22": {
+  "layout": 6,
+  "compiled": {
+   "fetch": [
+    0,
+    3,
+    4
+   ],
+   "priority": [
+    3
+   ],
+   "weights": [
+    [
+     3,
+     3.0
+    ]
+   ],
+   "before": [
+    [
+     4,
+     0
+    ]
+   ],
+   "never_pair": []
+  },
+  "correct": {
+   "fetch": [
+    0,
+    3,
+    4
+   ],
+   "priority": [
+    3
+   ],
+   "weights": [
+    [
+     3,
+     3.0
+    ]
+   ],
+   "before": [
+    [
+     4,
+     0
+    ]
+   ],
+   "never_pair": []
+  }
+ },
+ "E23": {
+  "layout": 7,
+  "compiled": {
+   "fetch": [
+    1,
+    2,
+    4
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [],
+   "never_pair": [
+    [
+     1,
+     4
+    ]
+   ]
+  },
+  "correct": {
+   "fetch": [
+    1,
+    2,
+    4
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [],
+   "never_pair": [
+    [
+     1,
+     4
+    ]
+   ]
+  }
+ },
+ "E24": {
+  "layout": 7,
+  "compiled": {
+   "fetch": [
+    0,
+    1
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [
+    [
+     1,
+     0
+    ]
+   ],
+   "never_pair": []
+  },
+  "correct": {
+   "fetch": [
+    0,
+    1
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [
+    [
+     1,
+     0
+    ]
+   ],
+   "never_pair": []
+  }
+ },
+ "E25": {
+  "layout": 7,
+  "compiled": {
+   "fetch": [
+    1,
+    3,
+    4
+   ],
+   "priority": [
+    1
+   ],
+   "weights": [
+    [
+     1,
+     3.0
+    ]
+   ],
+   "before": [],
+   "never_pair": [
+    [
+     1,
+     3
+    ]
+   ]
+  },
+  "correct": {
+   "fetch": [
+    1,
+    3,
+    4
+   ],
+   "priority": [
+    1
+   ],
+   "weights": [
+    [
+     1,
+     3.0
+    ]
+   ],
+   "before": [],
+   "never_pair": [
+    [
+     1,
+     3
+    ]
+   ]
+  }
+ },
+ "E26": {
+  "layout": 8,
+  "compiled": {
+   "fetch": [
+    0,
+    1,
+    2
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [],
+   "never_pair": []
+  },
+  "correct": {
+   "fetch": [
+    0,
+    1,
+    2
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [],
+   "never_pair": []
+  }
+ },
+ "E27": {
+  "layout": 8,
+  "compiled": {
+   "fetch": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "priority": [
+    0
+   ],
+   "weights": [
+    [
+     0,
+     3.0
+    ]
+   ],
+   "before": [],
+   "never_pair": []
+  },
+  "correct": {
+   "fetch": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "priority": [
+    0
+   ],
+   "weights": [
+    [
+     0,
+     3.0
+    ]
+   ],
+   "before": [],
+   "never_pair": []
+  }
+ },
+ "E28": {
+  "layout": 8,
+  "compiled": {
+   "fetch": [
+    0,
+    1,
+    5
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [],
+   "never_pair": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  "correct": {
+   "fetch": [
+    0,
+    1,
+    5
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [],
+   "never_pair": [
+    [
+     0,
+     1
+    ]
+   ]
+  }
+ },
+ "E29": {
+  "layout": 8,
+  "compiled": {
+   "fetch": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "priority": [
+    1
+   ],
+   "weights": [
+    [
+     1,
+     3.0
+    ]
+   ],
+   "before": [
+    [
+     5,
+     0
+    ],
+    [
+     5,
+     1
+    ],
+    [
+     5,
+     2
+    ]
+   ],
+   "never_pair": []
+  },
+  "correct": {
+   "fetch": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "priority": [
+    1
+   ],
+   "weights": [
+    [
+     1,
+     3.0
+    ]
+   ],
+   "before": [
+    [
+     5,
+     0
+    ],
+    [
+     5,
+     1
+    ],
+    [
+     5,
+     2
+    ]
+   ],
+   "never_pair": []
+  }
+ },
+ "E30": {
+  "layout": 9,
+  "compiled": {
+   "fetch": [
+    2,
+    4,
+    5
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [
+    [
+     5,
+     2
+    ],
+    [
+     5,
+     4
+    ]
+   ],
+   "never_pair": []
+  },
+  "correct": {
+   "fetch": [
+    2,
+    4,
+    5
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [
+    [
+     5,
+     2
+    ],
+    [
+     5,
+     4
+    ]
+   ],
+   "never_pair": []
+  }
+ },
+ "E31": {
+  "layout": 9,
+  "compiled": {
+   "fetch": [
+    2,
+    4,
+    5
+   ],
+   "priority": [
+    2
+   ],
+   "weights": [
+    [
+     2,
+     3.0
+    ]
+   ],
+   "before": [],
+   "never_pair": []
+  },
+  "correct": {
+   "fetch": [
+    2,
+    4,
+    5
+   ],
+   "priority": [
+    2
+   ],
+   "weights": [
+    [
+     2,
+     3.0
+    ]
+   ],
+   "before": [],
+   "never_pair": []
+  }
+ },
+ "E32": {
+  "layout": 9,
+  "compiled": {
+   "fetch": [
+    2,
+    3,
+    5
+   ],
+   "priority": [
+    5
+   ],
+   "weights": [
+    [
+     5,
+     3.0
+    ]
+   ],
+   "before": [],
+   "never_pair": [
+    [
+     3,
+     5
+    ]
+   ]
+  },
+  "correct": {
+   "fetch": [
+    2,
+    3,
+    5
+   ],
+   "priority": [
+    5
+   ],
+   "weights": [
+    [
+     5,
+     3.0
+    ]
+   ],
+   "before": [],
+   "never_pair": [
+    [
+     3,
+     5
+    ]
+   ]
+  }
+ },
+ "E33": {
+  "layout": 10,
+  "compiled": {
+   "fetch": [
+    0,
+    1,
+    3
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [],
+   "never_pair": []
+  },
+  "correct": {
+   "fetch": [
+    0,
+    1,
+    3
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [],
+   "never_pair": []
+  }
+ },
+ "E34": {
+  "layout": 10,
+  "compiled": {
+   "fetch": [
+    3,
+    4
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [],
+   "never_pair": [
+    [
+     3,
+     4
+    ]
+   ]
+  },
+  "correct": {
+   "fetch": [
+    3,
+    4
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [],
+   "never_pair": [
+    [
+     3,
+     4
+    ]
+   ]
+  }
+ },
+ "E35": {
+  "layout": 10,
+  "compiled": {
+   "fetch": [
+    0,
+    4
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [
+    [
+     4,
+     0
+    ]
+   ],
+   "never_pair": []
+  },
+  "correct": {
+   "fetch": [
+    0,
+    4
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [
+    [
+     4,
+     0
+    ]
+   ],
+   "never_pair": []
+  }
+ },
+ "E36": {
+  "layout": 10,
+  "compiled": {
+   "fetch": [
+    1,
+    3,
+    4
+   ],
+   "priority": [
+    4
+   ],
+   "weights": [
+    [
+     4,
+     3.0
+    ]
+   ],
+   "before": [
+    [
+     3,
+     1
+    ],
+    [
+     3,
+     4
+    ]
+   ],
+   "never_pair": []
+  },
+  "correct": {
+   "fetch": [
+    1,
+    3,
+    4
+   ],
+   "priority": [
+    4
+   ],
+   "weights": [
+    [
+     4,
+     3.0
+    ]
+   ],
+   "before": [
+    [
+     3,
+     1
+    ],
+    [
+     3,
+     4
+    ]
+   ],
+   "never_pair": []
+  }
+ },
+ "E37": {
+  "layout": 11,
+  "compiled": {
+   "fetch": [
+    2,
+    3,
+    5
+   ],
+   "priority": [
+    3
+   ],
+   "weights": [
+    [
+     3,
+     3.0
+    ]
+   ],
+   "before": [],
+   "never_pair": []
+  },
+  "correct": {
+   "fetch": [
+    2,
+    3,
+    5
+   ],
+   "priority": [
+    3
+   ],
+   "weights": [
+    [
+     3,
+     3.0
+    ]
+   ],
+   "before": [],
+   "never_pair": []
+  }
+ },
+ "E38": {
+  "layout": 11,
+  "compiled": {
+   "fetch": [
+    3,
+    4,
+    5
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [
+    [
+     5,
+     3
+    ],
+    [
+     5,
+     4
+    ]
+   ],
+   "never_pair": []
+  },
+  "correct": {
+   "fetch": [
+    3,
+    4,
+    5
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [
+    [
+     5,
+     3
+    ],
+    [
+     5,
+     4
+    ]
+   ],
+   "never_pair": []
+  }
+ },
+ "E39": {
+  "layout": 11,
+  "compiled": {
+   "fetch": [
+    1,
+    2,
+    3
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [],
+   "never_pair": [
+    [
+     2,
+     3
+    ]
+   ]
+  },
+  "correct": {
+   "fetch": [
+    1,
+    2,
+    3
+   ],
+   "priority": [],
+   "weights": [],
+   "before": [],
+   "never_pair": [
+    [
+     2,
+     3
+    ]
+   ]
+  }
+ },
+ "E40": {
+  "layout": 11,
+  "compiled": {
+   "fetch": [
+    2,
+    3,
+    4
+   ],
+   "priority": [
+    3
+   ],
+   "weights": [
+    [
+     3,
+     3.0
+    ]
+   ],
+   "before": [
+    [
+     2,
+     4
+    ]
+   ],
+   "never_pair": []
+  },
+  "correct": {
+   "fetch": [
+    2,
+    3,
+    4
+   ],
+   "priority": [
+    3
+   ],
+   "weights": [
+    [
+     3,
+     3.0
+    ]
+   ],
+   "before": [
+    [
+     2,
+     4
+    ]
+   ],
+   "never_pair": []
+  }
+ }
+}

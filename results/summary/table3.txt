@@ -1,0 +1,26 @@
+Table 3: fragile-grip success (held without crushing) and effects in points. Stationary success is pooled over phases; carry success is the mean over object pairs; effects are paired by phase and clustered by pair
+  stationary (1.5 N.m): n            539                        report 539                        matches
+  stationary (1.5 N.m): RL %         63.1                       report 63.1                       matches
+  stationary (1.5 N.m): reflex %     53.2                       report 53.2                       matches
+  stationary (1.5 N.m): fixed %      32.8                       report 32.8                       matches
+  stationary (1.5 N.m): RL - reflex  +8.9 (+2.7 to +15.5)       report +8.9 (+2.7 to +15.5)       matches
+  stationary (1.5 N.m): RL - fixed   +30.2 (+18.2 to +42.0)     report +30.2 (+18.2 to +42.0)     matches
+  stationary (1.0 N.m): n            469                        report 469                        matches
+  stationary (1.0 N.m): RL %         64.2                       report 64.2                       matches
+  stationary (1.0 N.m): reflex %     61.0                       report 61.0                       matches
+  stationary (1.0 N.m): fixed %      37.7                       report 37.7                       matches
+  stationary (1.0 N.m): RL - reflex  +1.9 (-4.6 to +8.4)        report +1.9 (-4.6 to +8.4)        matches
+  stationary (1.0 N.m): RL - fixed   +24.6 (+10.5 to +38.1)     report +24.6 (+10.5 to +38.1)     matches
+  carry (1.5 N.m): n                 180                        report 180                        matches
+  carry (1.5 N.m): RL %              54.8                       report 54.8                       matches
+  carry (1.5 N.m): reflex %          40.8                       report 40.8                       matches
+  carry (1.5 N.m): fixed %           37.7                       report 37.7                       matches
+  carry (1.5 N.m): RL - reflex       +14.0 (+4.5 to +24.4)      report +14.0 (+4.5 to +24.4)      matches
+  carry (1.5 N.m): RL - fixed        +17.0 (-1.0 to +34.1)      report +17.0 (-1.0 to +34.1)      matches
+  carry (1.0 N.m): n                 157                        report 157                        matches
+  carry (1.0 N.m): RL %              55.0                       report 55.0                       matches
+  carry (1.0 N.m): reflex %          44.3                       report 44.3                       matches
+  carry (1.0 N.m): fixed %           43.3                       report 43.3                       matches
+  carry (1.0 N.m): RL - reflex       +10.8 (+3.2 to +18.7)      report +10.8 (+3.2 to +18.7)      matches
+  carry (1.0 N.m): RL - fixed        +11.7 (-9.5 to +30.7)      report +11.7 (-9.5 to +30.7)      matches
+  all values match the report

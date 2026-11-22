@@ -1,0 +1,376 @@
+{
+ "two_object/objects.json": [
+  {
+   "id": "ycb-sugar-box",
+   "mass": 0.63793,
+   "friction": 0.8,
+   "kind": "ycb",
+   "source": "004_sugar_box",
+   "scale": 1.0
+  },
+  {
+   "id": "dgn-bottle",
+   "mass": 0.1,
+   "friction": 0.8,
+   "kind": "dexgraspnet",
+   "source": "core_bottle_70e58e9f89fd9802a9891f6668163611",
+   "scale": 0.06
+  },
+  {
+   "id": "dgn-can",
+   "mass": 0.1,
+   "friction": 0.8,
+   "kind": "dexgraspnet",
+   "source": "core_can_56dfb6a30f498643bbf0c65ae96423ae",
+   "scale": 0.06
+  },
+  {
+   "id": "dgn-carton",
+   "mass": 0.1,
+   "friction": 0.8,
+   "kind": "dexgraspnet",
+   "source": "ddg_gd_tetra_pak_poisson_003",
+   "scale": 0.06
+  }
+ ],
+ "choose/objects.json": [
+  {
+   "id": "nbox-1",
+   "mass": 0.09819948195958558,
+   "friction": 0.8,
+   "kind": "box",
+   "half_extents": [
+    0.0214676834911027,
+    0.01749132211521966,
+    0.051232933121440144
+   ]
+  },
+  {
+   "id": "nbox-2",
+   "mass": 0.206911721970574,
+   "friction": 0.8,
+   "kind": "box",
+   "half_extents": [
+    0.024622141491160744,
+    0.0195490843170994,
+    0.06577283848604985
+   ]
+  },
+  {
+   "id": "nbox-3",
+   "mass": 0.2419658881906982,
+   "friction": 0.8,
+   "kind": "box",
+   "half_extents": [
+    0.0184420121216242,
+    0.014030024873098212,
+    0.052543844848928725
+   ]
+  },
+  {
+   "id": "nbox-4",
+   "mass": 0.08558886270176162,
+   "friction": 0.8,
+   "kind": "box",
+   "half_extents": [
+    0.023842362913104143,
+    0.02360752431470485,
+    0.07793283527479768
+   ]
+  },
+  {
+   "id": "ndgn-1",
+   "mass": 0.1,
+   "friction": 0.8,
+   "kind": "dexgraspnet",
+   "source": "mujoco_Epson_LabelWorks_LC5WBN9_Tape_reel_labels_071_x_295_Roll_Black_on_White",
+   "scale": 0.06
+  },
+  {
+   "id": "ndgn-2",
+   "mass": 0.1,
+   "friction": 0.8,
+   "kind": "dexgraspnet",
+   "source": "ddg_kit_InstantTomatoSoup",
+   "scale": 0.06
+  },
+  {
+   "id": "ndgn-3",
+   "mass": 0.1,
+   "friction": 0.8,
+   "kind": "dexgraspnet",
+   "source": "sem_TissueBox_ddf889fc432a0f869bc18b58d4f2bc4",
+   "scale": 0.06
+  }
+ ],
+ "choose/objects-b2.json": [
+  {
+   "id": "ndgn-4",
+   "mass": 0.1,
+   "friction": 0.8,
+   "kind": "dexgraspnet",
+   "source": "mujoco_Sonicare_2_Series_Toothbrush_Plaque_Control",
+   "scale": 0.06
+  },
+  {
+   "id": "ndgn-5",
+   "mass": 0.1,
+   "friction": 0.8,
+   "kind": "dexgraspnet",
+   "source": "sem_Vase_32dc55c3e945384dbc5e533ab711fd24",
+   "scale": 0.06
+  },
+  {
+   "id": "ndgn-6",
+   "mass": 0.1,
+   "friction": 0.8,
+   "kind": "dexgraspnet",
+   "source": "ddg_gd_toaster_poisson_006",
+   "scale": 0.06
+  },
+  {
+   "id": "ndgn-7",
+   "mass": 0.1,
+   "friction": 0.8,
+   "kind": "dexgraspnet",
+   "source": "sem_Vase_3a275e00d69810c62600e861c93ad9cc",
+   "scale": 0.06
+  },
+  {
+   "id": "ndgn-8",
+   "mass": 0.1,
+   "friction": 0.8,
+   "kind": "dexgraspnet",
+   "source": "core_bottle_f49d6c4b75f695c44d34bdc365023cf4",
+   "scale": 0.06
+  },
+  {
+   "id": "ndgn-9",
+   "mass": 0.1,
+   "friction": 0.8,
+   "kind": "dexgraspnet",
+   "source": "ddg_gd_box_poisson_008",
+   "scale": 0.06
+  }
+ ],
+ "atlas/objects.json": [
+  {
+   "id": "atlas-w-box-30x100",
+   "mass": 0.15,
+   "friction": 0.8,
+   "kind": "box",
+   "half_extents": [
+    0.015,
+    0.015,
+    0.05
+   ]
+  },
+  {
+   "id": "atlas-w-box-30x150",
+   "mass": 0.15,
+   "friction": 0.8,
+   "kind": "box",
+   "half_extents": [
+    0.015,
+    0.015,
+    0.075
+   ]
+  },
+  {
+   "id": "atlas-w-box-45x100",
+   "mass": 0.15,
+   "friction": 0.8,
+   "kind": "box",
+   "half_extents": [
+    0.0225,
+    0.0225,
+    0.05
+   ]
+  },
+  {
+   "id": "atlas-w-box-45x150",
+   "mass": 0.15,
+   "friction": 0.8,
+   "kind": "box",
+   "half_extents": [
+    0.0225,
+    0.0225,
+    0.075
+   ]
+  },
+  {
+   "id": "atlas-w-cyl-30x100",
+   "mass": 0.15,
+   "friction": 0.8,
+   "kind": "cylinder",
+   "width_m": 0.03,
+   "height_m": 0.1
+  },
+  {
+   "id": "atlas-w-cyl-30x150",
+   "mass": 0.15,
+   "friction": 0.8,
+   "kind": "cylinder",
+   "width_m": 0.03,
+   "height_m": 0.15
+  },
+  {
+   "id": "atlas-w-cyl-45x100",
+   "mass": 0.15,
+   "friction": 0.8,
+   "kind": "cylinder",
+   "width_m": 0.045,
+   "height_m": 0.1
+  },
+  {
+   "id": "atlas-w-cyl-45x150",
+   "mass": 0.15,
+   "friction": 0.8,
+   "kind": "cylinder",
+   "width_m": 0.045,
+   "height_m": 0.15
+  },
+  {
+   "id": "atlas-t-box-35x80",
+   "mass": 0.15,
+   "friction": 0.8,
+   "kind": "box",
+   "half_extents": [
+    0.0175,
+    0.0175,
+    0.04
+   ]
+  },
+  {
+   "id": "atlas-t-box-35x130",
+   "mass": 0.15,
+   "friction": 0.8,
+   "kind": "box",
+   "half_extents": [
+    0.0175,
+    0.0175,
+    0.065
+   ]
+  },
+  {
+   "id": "atlas-t-box-55x80",
+   "mass": 0.15,
+   "friction": 0.8,
+   "kind": "box",
+   "half_extents": [
+    0.0275,
+    0.0275,
+    0.04
+   ]
+  },
+  {
+   "id": "atlas-t-box-55x130",
+   "mass": 0.15,
+   "friction": 0.8,
+   "kind": "box",
+   "half_extents": [
+    0.0275,
+    0.0275,
+    0.065
+   ]
+  },
+  {
+   "id": "atlas-t-cyl-35x80",
+   "mass": 0.15,
+   "friction": 0.8,
+   "kind": "cylinder",
+   "width_m": 0.035,
+   "height_m": 0.08
+  },
+  {
+   "id": "atlas-t-cyl-35x130",
+   "mass": 0.15,
+   "friction": 0.8,
+   "kind": "cylinder",
+   "width_m": 0.035,
+   "height_m": 0.13
+  },
+  {
+   "id": "atlas-t-cyl-55x80",
+   "mass": 0.15,
+   "friction": 0.8,
+   "kind": "cylinder",
+   "width_m": 0.055,
+   "height_m": 0.08
+  },
+  {
+   "id": "atlas-t-cyl-55x130",
+   "mass": 0.15,
+   "friction": 0.8,
+   "kind": "cylinder",
+   "width_m": 0.055,
+   "height_m": 0.13
+  }
+ ],
+ "unseen/objects.json": [
+  {
+   "id": "unseen-1",
+   "mass": 0.1,
+   "friction": 0.8,
+   "kind": "scanned",
+   "source": "3D_Dollhouse_Lamp",
+   "scale": 1.0
+  },
+  {
+   "id": "unseen-2",
+   "mass": 0.1,
+   "friction": 0.8,
+   "kind": "scanned",
+   "source": "Perricoen_MD_No_Concealer_Concealer",
+   "scale": 1.0
+  },
+  {
+   "id": "unseen-3",
+   "mass": 0.1,
+   "friction": 0.8,
+   "kind": "scanned",
+   "source": "Office_Depot_Canon_CLI_221BK_Ink_Cartridge_Black_2946B001",
+   "scale": 1.0
+  },
+  {
+   "id": "unseen-4",
+   "mass": 0.1,
+   "friction": 0.8,
+   "kind": "scanned",
+   "source": "Tune_Belt_Sport_Armband_For_Samsung_Galaxy_S3",
+   "scale": 1.0
+  },
+  {
+   "id": "unseen-5",
+   "mass": 0.1,
+   "friction": 0.8,
+   "kind": "scanned",
+   "source": "YumYum_D3_Liquid",
+   "scale": 1.0
+  },
+  {
+   "id": "unseen-6",
+   "mass": 0.1,
+   "friction": 0.8,
+   "kind": "scanned",
+   "source": "BUILD_A_ZOO",
+   "scale": 1.0
+  },
+  {
+   "id": "unseen-7",
+   "mass": 0.1,
+   "friction": 0.8,
+   "kind": "scanned",
+   "source": "MK7",
+   "scale": 1.0
+  },
+  {
+   "id": "unseen-8",
+   "mass": 0.1,
+   "friction": 0.8,
+   "kind": "scanned",
+   "source": "Germanium_GE132",
+   "scale": 1.0
+  }
+ ]
+}

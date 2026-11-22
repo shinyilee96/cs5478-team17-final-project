@@ -1,0 +1,837 @@
+{
+ "rule": "Long-table layouts: 12 held-out layouts of 4 to 6 test objects in a row, drawn once with seed 18 before any errand ran.",
+ "seed": 18,
+ "spacing": 0.36,
+ "allowed": {
+  "left1": 1,
+  "left2": 2,
+  "right1": -1
+ },
+ "pool": [
+  "bar-3cm",
+  "tall-heavy",
+  "can",
+  "dgn-can",
+  "nbox-1",
+  "nbox-2",
+  "nbox-3",
+  "nbox-4",
+  "ndgn-1",
+  "ndgn-2",
+  "ndgn-3",
+  "ndgn-4",
+  "ndgn-5",
+  "ndgn-6",
+  "ndgn-7",
+  "ndgn-8",
+  "ndgn-9"
+ ],
+ "wrappable": [
+  "bar-3cm",
+  "dgn-can",
+  "nbox-1",
+  "nbox-2",
+  "nbox-3",
+  "nbox-4",
+  "ndgn-5",
+  "ndgn-6",
+  "ndgn-7",
+  "ndgn-8",
+  "tall-heavy"
+ ],
+ "layouts": [
+  [
+   "nbox-2",
+   "dgn-can",
+   "ndgn-5",
+   "ndgn-9"
+  ],
+  [
+   "tall-heavy",
+   "ndgn-4",
+   "ndgn-7",
+   "ndgn-8"
+  ],
+  [
+   "ndgn-5",
+   "ndgn-9",
+   "ndgn-3",
+   "ndgn-1"
+  ],
+  [
+   "nbox-1",
+   "ndgn-2",
+   "ndgn-4",
+   "ndgn-9"
+  ],
+  [
+   "ndgn-3",
+   "ndgn-6",
+   "nbox-4",
+   "ndgn-2",
+   "bar-3cm"
+  ],
+  [
+   "ndgn-1",
+   "dgn-can",
+   "can",
+   "ndgn-2",
+   "ndgn-8"
+  ],
+  [
+   "ndgn-9",
+   "tall-heavy",
+   "ndgn-7",
+   "bar-3cm",
+   "ndgn-4"
+  ],
+  [
+   "ndgn-9",
+   "ndgn-8",
+   "ndgn-2",
+   "ndgn-4",
+   "nbox-4"
+  ],
+  [
+   "nbox-3",
+   "nbox-2",
+   "ndgn-9",
+   "ndgn-7",
+   "ndgn-6",
+   "ndgn-2"
+  ],
+  [
+   "ndgn-5",
+   "ndgn-7",
+   "can",
+   "ndgn-1",
+   "ndgn-4",
+   "tall-heavy"
+  ],
+  [
+   "ndgn-3",
+   "ndgn-4",
+   "ndgn-1",
+   "can",
+   "nbox-2",
+   "ndgn-6"
+  ],
+  [
+   "ndgn-6",
+   "bar-3cm",
+   "ndgn-3",
+   "dgn-can",
+   "ndgn-4",
+   "can"
+  ]
+ ],
+ "options": [
+  [
+   {
+    "first": "nbox-2",
+    "second": "dgn-can",
+    "i": 0,
+    "j": 1,
+    "position": "left1"
+   },
+   {
+    "first": "nbox-2",
+    "second": "ndgn-5",
+    "i": 0,
+    "j": 2,
+    "position": "left2"
+   },
+   {
+    "first": "dgn-can",
+    "second": "ndgn-5",
+    "i": 1,
+    "j": 2,
+    "position": "left1"
+   },
+   {
+    "first": "dgn-can",
+    "second": "ndgn-9",
+    "i": 1,
+    "j": 3,
+    "position": "left2"
+   },
+   {
+    "first": "dgn-can",
+    "second": "nbox-2",
+    "i": 1,
+    "j": 0,
+    "position": "right1"
+   },
+   {
+    "first": "ndgn-5",
+    "second": "ndgn-9",
+    "i": 2,
+    "j": 3,
+    "position": "left1"
+   },
+   {
+    "first": "ndgn-5",
+    "second": "dgn-can",
+    "i": 2,
+    "j": 1,
+    "position": "right1"
+   }
+  ],
+  [
+   {
+    "first": "tall-heavy",
+    "second": "ndgn-4",
+    "i": 0,
+    "j": 1,
+    "position": "left1"
+   },
+   {
+    "first": "tall-heavy",
+    "second": "ndgn-7",
+    "i": 0,
+    "j": 2,
+    "position": "left2"
+   },
+   {
+    "first": "ndgn-7",
+    "second": "ndgn-8",
+    "i": 2,
+    "j": 3,
+    "position": "left1"
+   },
+   {
+    "first": "ndgn-7",
+    "second": "ndgn-4",
+    "i": 2,
+    "j": 1,
+    "position": "right1"
+   },
+   {
+    "first": "ndgn-8",
+    "second": "ndgn-7",
+    "i": 3,
+    "j": 2,
+    "position": "right1"
+   }
+  ],
+  [
+   {
+    "first": "ndgn-5",
+    "second": "ndgn-9",
+    "i": 0,
+    "j": 1,
+    "position": "left1"
+   },
+   {
+    "first": "ndgn-5",
+    "second": "ndgn-3",
+    "i": 0,
+    "j": 2,
+    "position": "left2"
+   }
+  ],
+  [
+   {
+    "first": "nbox-1",
+    "second": "ndgn-2",
+    "i": 0,
+    "j": 1,
+    "position": "left1"
+   },
+   {
+    "first": "nbox-1",
+    "second": "ndgn-4",
+    "i": 0,
+    "j": 2,
+    "position": "left2"
+   }
+  ],
+  [
+   {
+    "first": "ndgn-6",
+    "second": "nbox-4",
+    "i": 1,
+    "j": 2,
+    "position": "left1"
+   },
+   {
+    "first": "ndgn-6",
+    "second": "ndgn-2",
+    "i": 1,
+    "j": 3,
+    "position": "left2"
+   },
+   {
+    "first": "ndgn-6",
+    "second": "ndgn-3",
+    "i": 1,
+    "j": 0,
+    "position": "right1"
+   },
+   {
+    "first": "nbox-4",
+    "second": "ndgn-2",
+    "i": 2,
+    "j": 3,
+    "position": "left1"
+   },
+   {
+    "first": "nbox-4",
+    "second": "bar-3cm",
+    "i": 2,
+    "j": 4,
+    "position": "left2"
+   },
+   {
+    "first": "nbox-4",
+    "second": "ndgn-6",
+    "i": 2,
+    "j": 1,
+    "position": "right1"
+   },
+   {
+    "first": "bar-3cm",
+    "second": "ndgn-2",
+    "i": 4,
+    "j": 3,
+    "position": "right1"
+   }
+  ],
+  [
+   {
+    "first": "dgn-can",
+    "second": "can",
+    "i": 1,
+    "j": 2,
+    "position": "left1"
+   },
+   {
+    "first": "dgn-can",
+    "second": "ndgn-2",
+    "i": 1,
+    "j": 3,
+    "position": "left2"
+   },
+   {
+    "first": "dgn-can",
+    "second": "ndgn-1",
+    "i": 1,
+    "j": 0,
+    "position": "right1"
+   },
+   {
+    "first": "ndgn-8",
+    "second": "ndgn-2",
+    "i": 4,
+    "j": 3,
+    "position": "right1"
+   }
+  ],
+  [
+   {
+    "first": "tall-heavy",
+    "second": "ndgn-7",
+    "i": 1,
+    "j": 2,
+    "position": "left1"
+   },
+   {
+    "first": "tall-heavy",
+    "second": "bar-3cm",
+    "i": 1,
+    "j": 3,
+    "position": "left2"
+   },
+   {
+    "first": "tall-heavy",
+    "second": "ndgn-9",
+    "i": 1,
+    "j": 0,
+    "position": "right1"
+   },
+   {
+    "first": "ndgn-7",
+    "second": "bar-3cm",
+    "i": 2,
+    "j": 3,
+    "position": "left1"
+   },
+   {
+    "first": "ndgn-7",
+    "second": "ndgn-4",
+    "i": 2,
+    "j": 4,
+    "position": "left2"
+   },
+   {
+    "first": "ndgn-7",
+    "second": "tall-heavy",
+    "i": 2,
+    "j": 1,
+    "position": "right1"
+   },
+   {
+    "first": "bar-3cm",
+    "second": "ndgn-4",
+    "i": 3,
+    "j": 4,
+    "position": "left1"
+   },
+   {
+    "first": "bar-3cm",
+    "second": "ndgn-7",
+    "i": 3,
+    "j": 2,
+    "position": "right1"
+   }
+  ],
+  [
+   {
+    "first": "ndgn-8",
+    "second": "ndgn-2",
+    "i": 1,
+    "j": 2,
+    "position": "left1"
+   },
+   {
+    "first": "ndgn-8",
+    "second": "ndgn-4",
+    "i": 1,
+    "j": 3,
+    "position": "left2"
+   },
+   {
+    "first": "ndgn-8",
+    "second": "ndgn-9",
+    "i": 1,
+    "j": 0,
+    "position": "right1"
+   },
+   {
+    "first": "nbox-4",
+    "second": "ndgn-4",
+    "i": 4,
+    "j": 3,
+    "position": "right1"
+   }
+  ],
+  [
+   {
+    "first": "nbox-3",
+    "second": "nbox-2",
+    "i": 0,
+    "j": 1,
+    "position": "left1"
+   },
+   {
+    "first": "nbox-3",
+    "second": "ndgn-9",
+    "i": 0,
+    "j": 2,
+    "position": "left2"
+   },
+   {
+    "first": "nbox-2",
+    "second": "ndgn-9",
+    "i": 1,
+    "j": 2,
+    "position": "left1"
+   },
+   {
+    "first": "nbox-2",
+    "second": "ndgn-7",
+    "i": 1,
+    "j": 3,
+    "position": "left2"
+   },
+   {
+    "first": "nbox-2",
+    "second": "nbox-3",
+    "i": 1,
+    "j": 0,
+    "position": "right1"
+   },
+   {
+    "first": "ndgn-7",
+    "second": "ndgn-6",
+    "i": 3,
+    "j": 4,
+    "position": "left1"
+   },
+   {
+    "first": "ndgn-7",
+    "second": "ndgn-2",
+    "i": 3,
+    "j": 5,
+    "position": "left2"
+   },
+   {
+    "first": "ndgn-7",
+    "second": "ndgn-9",
+    "i": 3,
+    "j": 2,
+    "position": "right1"
+   },
+   {
+    "first": "ndgn-6",
+    "second": "ndgn-2",
+    "i": 4,
+    "j": 5,
+    "position": "left1"
+   },
+   {
+    "first": "ndgn-6",
+    "second": "ndgn-7",
+    "i": 4,
+    "j": 3,
+    "position": "right1"
+   }
+  ],
+  [
+   {
+    "first": "ndgn-5",
+    "second": "ndgn-7",
+    "i": 0,
+    "j": 1,
+    "position": "left1"
+   },
+   {
+    "first": "ndgn-5",
+    "second": "can",
+    "i": 0,
+    "j": 2,
+    "position": "left2"
+   },
+   {
+    "first": "ndgn-7",
+    "second": "can",
+    "i": 1,
+    "j": 2,
+    "position": "left1"
+   },
+   {
+    "first": "ndgn-7",
+    "second": "ndgn-1",
+    "i": 1,
+    "j": 3,
+    "position": "left2"
+   },
+   {
+    "first": "ndgn-7",
+    "second": "ndgn-5",
+    "i": 1,
+    "j": 0,
+    "position": "right1"
+   },
+   {
+    "first": "tall-heavy",
+    "second": "ndgn-4",
+    "i": 5,
+    "j": 4,
+    "position": "right1"
+   }
+  ],
+  [
+   {
+    "first": "nbox-2",
+    "second": "ndgn-6",
+    "i": 4,
+    "j": 5,
+    "position": "left1"
+   },
+   {
+    "first": "nbox-2",
+    "second": "can",
+    "i": 4,
+    "j": 3,
+    "position": "right1"
+   },
+   {
+    "first": "ndgn-6",
+    "second": "nbox-2",
+    "i": 5,
+    "j": 4,
+    "position": "right1"
+   }
+  ],
+  [
+   {
+    "first": "ndgn-6",
+    "second": "bar-3cm",
+    "i": 0,
+    "j": 1,
+    "position": "left1"
+   },
+   {
+    "first": "ndgn-6",
+    "second": "ndgn-3",
+    "i": 0,
+    "j": 2,
+    "position": "left2"
+   },
+   {
+    "first": "bar-3cm",
+    "second": "ndgn-3",
+    "i": 1,
+    "j": 2,
+    "position": "left1"
+   },
+   {
+    "first": "bar-3cm",
+    "second": "dgn-can",
+    "i": 1,
+    "j": 3,
+    "position": "left2"
+   },
+   {
+    "first": "bar-3cm",
+    "second": "ndgn-6",
+    "i": 1,
+    "j": 0,
+    "position": "right1"
+   },
+   {
+    "first": "dgn-can",
+    "second": "ndgn-4",
+    "i": 3,
+    "j": 4,
+    "position": "left1"
+   },
+   {
+    "first": "dgn-can",
+    "second": "can",
+    "i": 3,
+    "j": 5,
+    "position": "left2"
+   },
+   {
+    "first": "dgn-can",
+    "second": "ndgn-3",
+    "i": 3,
+    "j": 2,
+    "position": "right1"
+   }
+  ]
+ ],
+ "existing_libraries": {
+  "bar-3cm+ndgn-2": "runs/choose",
+  "dgn-can+ndgn-9": "runs/choose",
+  "nbox-2+can": "runs/choose",
+  "ndgn-6+bar-3cm": "runs/choose",
+  "tall-heavy+ndgn-4": "runs/choose"
+ },
+ "pairs": [
+  [
+   "bar-3cm",
+   "dgn-can"
+  ],
+  [
+   "bar-3cm",
+   "ndgn-3"
+  ],
+  [
+   "bar-3cm",
+   "ndgn-4"
+  ],
+  [
+   "bar-3cm",
+   "ndgn-6"
+  ],
+  [
+   "bar-3cm",
+   "ndgn-7"
+  ],
+  [
+   "dgn-can",
+   "can"
+  ],
+  [
+   "dgn-can",
+   "nbox-2"
+  ],
+  [
+   "dgn-can",
+   "ndgn-1"
+  ],
+  [
+   "dgn-can",
+   "ndgn-2"
+  ],
+  [
+   "dgn-can",
+   "ndgn-3"
+  ],
+  [
+   "dgn-can",
+   "ndgn-4"
+  ],
+  [
+   "dgn-can",
+   "ndgn-5"
+  ],
+  [
+   "nbox-1",
+   "ndgn-2"
+  ],
+  [
+   "nbox-1",
+   "ndgn-4"
+  ],
+  [
+   "nbox-2",
+   "dgn-can"
+  ],
+  [
+   "nbox-2",
+   "nbox-3"
+  ],
+  [
+   "nbox-2",
+   "ndgn-5"
+  ],
+  [
+   "nbox-2",
+   "ndgn-6"
+  ],
+  [
+   "nbox-2",
+   "ndgn-7"
+  ],
+  [
+   "nbox-2",
+   "ndgn-9"
+  ],
+  [
+   "nbox-3",
+   "nbox-2"
+  ],
+  [
+   "nbox-3",
+   "ndgn-9"
+  ],
+  [
+   "nbox-4",
+   "bar-3cm"
+  ],
+  [
+   "nbox-4",
+   "ndgn-2"
+  ],
+  [
+   "nbox-4",
+   "ndgn-4"
+  ],
+  [
+   "nbox-4",
+   "ndgn-6"
+  ],
+  [
+   "ndgn-5",
+   "can"
+  ],
+  [
+   "ndgn-5",
+   "dgn-can"
+  ],
+  [
+   "ndgn-5",
+   "ndgn-3"
+  ],
+  [
+   "ndgn-5",
+   "ndgn-7"
+  ],
+  [
+   "ndgn-5",
+   "ndgn-9"
+  ],
+  [
+   "ndgn-6",
+   "nbox-2"
+  ],
+  [
+   "ndgn-6",
+   "nbox-4"
+  ],
+  [
+   "ndgn-6",
+   "ndgn-2"
+  ],
+  [
+   "ndgn-6",
+   "ndgn-3"
+  ],
+  [
+   "ndgn-6",
+   "ndgn-7"
+  ],
+  [
+   "ndgn-7",
+   "bar-3cm"
+  ],
+  [
+   "ndgn-7",
+   "can"
+  ],
+  [
+   "ndgn-7",
+   "ndgn-1"
+  ],
+  [
+   "ndgn-7",
+   "ndgn-2"
+  ],
+  [
+   "ndgn-7",
+   "ndgn-4"
+  ],
+  [
+   "ndgn-7",
+   "ndgn-5"
+  ],
+  [
+   "ndgn-7",
+   "ndgn-6"
+  ],
+  [
+   "ndgn-7",
+   "ndgn-8"
+  ],
+  [
+   "ndgn-7",
+   "ndgn-9"
+  ],
+  [
+   "ndgn-7",
+   "tall-heavy"
+  ],
+  [
+   "ndgn-8",
+   "ndgn-2"
+  ],
+  [
+   "ndgn-8",
+   "ndgn-4"
+  ],
+  [
+   "ndgn-8",
+   "ndgn-7"
+  ],
+  [
+   "ndgn-8",
+   "ndgn-9"
+  ],
+  [
+   "tall-heavy",
+   "bar-3cm"
+  ],
+  [
+   "tall-heavy",
+   "ndgn-7"
+  ],
+  [
+   "tall-heavy",
+   "ndgn-9"
+  ]
+ ]
+}

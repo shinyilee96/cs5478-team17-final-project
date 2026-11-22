@@ -1,0 +1,43 @@
+{
+ "frozen": "2026-10-31",
+ "rule": "fitted on the 11 training pairs only, before the errands ran",
+ "pairs": [
+  "bar-2cm+cube-s",
+  "bar-4cm+tall",
+  "cube-s+dgn-bottle",
+  "cube-s+tall",
+  "dgn-bottle+tall",
+  "dgn-carton+cube-s",
+  "dgn-carton+tall",
+  "slim+cube-s",
+  "stick+slab",
+  "stick+tall",
+  "tall+slab"
+ ],
+ "plans": 236,
+ "model": "estimator.pkl",
+ "sha256": "33f81e443c461f71fab35b9183c766483b846d879764bc11a9dcd95fceb3b2ca",
+ "kind": "boosting",
+ "cv_top1_leave_one_pair_out": {
+  "logistic": 0.6045454545454546,
+  "boosting": 0.7681818181818181
+ },
+ "output": "model score clipped to [0, 1]",
+ "mean_rate_train": 0.5044491525423729,
+ "failure_codes_pooled": {
+  "BOTH_LOST": 3,
+  "FIRST_DISTURBED": 166,
+  "FIRST_LOST_MOVING": 196,
+  "FIRST_LOST_ON_SECOND_GRASP": 22,
+  "FIRST_NOT_LIFTED": 507,
+  "FIRST_NO_CONTACT": 680,
+  "FIRST_OTHER_FINGER": 178,
+  "SECOND_NOT_LIFTED": 387,
+  "SECOND_PATH_COLLISION": 55,
+  "SECOND_PUSHED": 8,
+  "SECOND_UNREACHABLE": 137
+ },
+ "feature_names_sha256": "485117590423318088c6ee4040fb393c1de374f7c2826a92ec0f944584a5f538",
+ "sklearn": "1.7.2",
+ "numpy": "1.26.4"
+}

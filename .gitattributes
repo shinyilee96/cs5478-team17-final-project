@@ -1,2 +1,2 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Keep every file byte for byte on checkout (no line-ending conversion), so the checksums in setup/ match on every machine.
+* -text

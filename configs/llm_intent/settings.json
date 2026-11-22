@@ -1,0 +1,7 @@
+{
+ "written": "2026-11-12, before any evaluation call",
+ "model": "gpt-5.4-mini-2026-03-17",
+ "model_note": "GPT-5.4 mini, chosen 12 Nov; the dated snapshot listed by the API's model list (gpt-5.4-mini and gpt-5.4-mini-2026-03-17) and by OpenAI's model page (the only snapshot)",
+ "params": {"reasoning_effort": "medium", "store": false, "seed": 91},
+ "params_note": "temperature 0 is not accepted with reasoning_effort medium (only the default 1 is), so a fixed seed (91) is used instead; store false: OpenAI keeps no copy"
+}

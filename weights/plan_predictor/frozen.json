@@ -1,0 +1,49 @@
+{
+ "frozen": "2026-10-18",
+ "pairs": [
+  "bar-2cm+cube-s",
+  "bar-3cm+slab",
+  "bar-3cm+tall",
+  "bar-4cm+tall",
+  "cube-s+can",
+  "cube-s+dgn-bottle",
+  "cube-s+dgn-can",
+  "cube-s+tall",
+  "dgn-bottle+can",
+  "dgn-bottle+tall",
+  "dgn-can+dgn-bottle",
+  "dgn-can+tall",
+  "dgn-carton+cube-s",
+  "dgn-carton+tall",
+  "slim+cube-s",
+  "slim+tall-heavy",
+  "stick+can",
+  "stick+dgn-can",
+  "stick+slab",
+  "stick+tall",
+  "tall+slab",
+  "tall-heavy+cube-s",
+  "tall-heavy+slab"
+ ],
+ "plans": 473,
+ "rule_R": "robust_rank_key (no training)",
+ "rule_P": {
+  "model": "predictor.pkl",
+  "sha256": "d753106d0460b79a73261ad8724e3a90ffbcd3873f8e53d94d64c1eed553ee55",
+  "kind": "boosting",
+  "cv_top1_leave_one_pair_out": {
+   "logistic": 0.6891304347826086,
+   "boosting": 0.7673913043478262
+  }
+ },
+ "rule_F": {
+  "feature": "robust_min",
+  "sign": 1,
+  "top1_old_pairs": 0.7456521739130434
+ },
+ "robust_top1_old_pairs": 0.7717391304347826,
+ "mean_rate_old_pairs": 0.5007399577167019,
+ "feature_names_sha256": "485117590423318088c6ee4040fb393c1de374f7c2826a92ec0f944584a5f538",
+ "sklearn": "1.7.2",
+ "numpy": "1.26.4"
+}

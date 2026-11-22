@@ -1,0 +1,8 @@
+{
+  "note": "The scenario chosen by a sweep over the outcome model before the errands ran. Knocks injected (an assumption): after a trip that fails at the table, each object standing within r of its objects is toppled with chance p; severity stood up again: put back upright at its start pose after seconds each (an injected stand-up). Odds measured (configs/scenario_odds.json, privileged).",
+  "p": 0.5,
+  "r": 0.40,
+  "severity": "stood up",
+  "seconds": 20.0,
+  "spread": 1.0
+}

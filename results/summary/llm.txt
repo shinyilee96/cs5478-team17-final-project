@@ -1,0 +1,7 @@
+LLM extension (Section 6.2): 40 explicit requests x 2 seeds over the 12 round-table layouts, scored in the planner's model from cached LLM replies; 12 requests also run as simulated errands
+  requests compiled exactly (Wilson 95%)                               40 of 40 (91 to 100%)      report 40 of 40 (91 to 100%)      matches
+  instruction violations: planner, direct LLM planning                 0.0%, 6.8%                 report 0.0%, 6.8%                 matches
+  weighted delivery rate in the planner's model: planner - direct LLM  +6.1% (+1.2 to +11.1)      report +6.1% (+1.2 to +11.1)      matches
+  priority object lost: planner, direct LLM planning                   14.9%, 5.8%                report 14.9%, 5.8%                matches
+  simulated errands (24 per method): planner - direct LLM              +5.0% (-11.1 to +19.2)     report +5.0% (-11.1 to +19.2)     matches
+  all values match the report

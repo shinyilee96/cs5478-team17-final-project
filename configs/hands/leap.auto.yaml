@@ -1,0 +1,19 @@
+# Generated geometry calibration; overrides the hand configuration.
+palm_axes:
+  forward:
+  - 1.0
+  - 0.0
+  - 0.0
+  normal:
+  - 0.0
+  - 0.0
+  - -1.0
+fetch_mount:
+  xyz:
+  - 0.05
+  - 0.0
+  - 0.0
+  rpy:
+  - 3.141592653589793
+  - 1.5707963267948966
+  - 0.0

@@ -1,0 +1,23 @@
+{
+ "written": "2026-11-12, once, before any instruction was written",
+ "note": "Household roles for the objects, used only for rendering and in prompts; shapes, plans, odds and physics are unchanged. Every object of the round-table layouts (configs/errand_layouts_round.json) has a role; nbox-1..4 are four kinds of packet, ndgn-9 is a tea box, tall-heavy a rice box and bar-3cm a candle. A prompt shows the role, the shape and the size, never the object's id. No brand names.",
+ "roles": {
+  "ndgn-8": {"role": "medicine bottle", "shape": "bottle", "size_cm": [4.0, 4.0, 10.7], "clutter": false, "texture": "amber glass bottle, white cap, white label with a plain cross"},
+  "can": {"role": "pill box", "shape": "small carton", "size_cm": [6.0, 6.0, 10.0], "clutter": false, "texture": "white carton with a blue band and a blister-pack icon"},
+  "dgn-can": {"role": "juice can", "shape": "can", "size_cm": [4.1, 4.1, 10.7], "clutter": false, "texture": "metal can with an orange sleeve and plain fruit circles"},
+  "nbox-1": {"role": "sweets", "shape": "small box", "size_cm": [4.3, 3.5, 10.2], "clutter": false, "texture": "packet with pink and white diagonal stripes"},
+  "nbox-2": {"role": "biscuits", "shape": "box", "size_cm": [4.9, 3.9, 13.2], "clutter": false, "texture": "golden box with a row of round biscuits"},
+  "nbox-3": {"role": "chocolates", "shape": "small box", "size_cm": [3.7, 2.8, 10.5], "clutter": false, "texture": "dark brown box with a gold band"},
+  "nbox-4": {"role": "cereal bars", "shape": "tall box", "size_cm": [4.8, 4.7, 15.6], "clutter": false, "texture": "green box with yellow stripes"},
+  "ndgn-3": {"role": "tissues", "shape": "box", "size_cm": [5.7, 3.4, 10.2], "clutter": false, "texture": "white box with light blue waves"},
+  "ndgn-4": {"role": "toothbrush pack", "shape": "box", "size_cm": [6.8, 4.0, 9.3], "clutter": false, "texture": "blue and white pack with a window"},
+  "ndgn-2": {"role": "soup box", "shape": "box", "size_cm": [6.8, 4.4, 8.9], "clutter": false, "texture": "red and cream box with a bowl icon"},
+  "ndgn-9": {"role": "tea box", "shape": "box", "size_cm": [5.9, 4.0, 9.7], "clutter": false, "texture": "deep green box with a leaf icon"},
+  "tall-heavy": {"role": "rice box", "shape": "tall box", "size_cm": [5.0, 5.0, 12.0], "clutter": false, "texture": "beige box with a grain pattern"},
+  "ndgn-6": {"role": "toaster", "shape": "small appliance", "size_cm": [4.9, 4.7, 10.1], "clutter": true, "texture": "kind material (other)"},
+  "ndgn-1": {"role": "tape reel", "shape": "reel", "size_cm": [6.9, 3.1, 9.5], "clutter": true, "texture": "kind material (other)"},
+  "bar-3cm": {"role": "candle", "shape": "stick", "size_cm": [3.0, 3.0, 14.0], "clutter": true, "texture": "kind material (other)"},
+  "ndgn-5": {"role": "vase", "shape": "vase", "size_cm": [4.5, 4.5, 10.3], "clutter": true, "texture": "kind material (vase)"},
+  "ndgn-7": {"role": "vase", "shape": "vase", "size_cm": [4.5, 4.5, 10.3], "clutter": true, "texture": "kind material (vase)"}
+ }
+}

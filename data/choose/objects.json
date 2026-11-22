@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "objects": [
+    {
+      "object_id": "nbox-1",
+      "half_extents": [
+        0.0214676834911027,
+        0.01749132211521966,
+        0.051232933121440144
+      ],
+      "mass": 0.09819948195958558,
+      "friction": 0.8,
+      "visual_mesh": null,
+      "collision_meshes": [],
+      "scale": 1.0
+    },
+    {
+      "object_id": "nbox-2",
+      "half_extents": [
+        0.024622141491160744,
+        0.0195490843170994,
+        0.06577283848604985
+      ],
+      "mass": 0.206911721970574,
+      "friction": 0.8,
+      "visual_mesh": null,
+      "collision_meshes": [],
+      "scale": 1.0
+    },
+    {
+      "object_id": "nbox-3",
+      "half_extents": [
+        0.0184420121216242,
+        0.014030024873098212,
+        0.052543844848928725
+      ],
+      "mass": 0.2419658881906982,
+      "friction": 0.8,
+      "visual_mesh": null,
+      "collision_meshes": [],
+      "scale": 1.0
+    },
+    {
+      "object_id": "nbox-4",
+      "half_extents": [
+        0.023842362913104143,
+        0.02360752431470485,
+        0.07793283527479768
+      ],
+      "mass": 0.08558886270176162,
+      "friction": 0.8,
+      "visual_mesh": null,
+      "collision_meshes": [],
+      "scale": 1.0
+    },
+    {
+      "object_id": "ndgn-1",
+      "half_extents": [
+        0.0345334623,
+        0.015495422699999999,
+        0.0476103189
+      ],
+      "mass": 0.1,
+      "friction": 0.8,
+      "visual_mesh": "meshes/ndgn-1/visual.obj",
+      "collision_meshes": [
+        "meshes/ndgn-1/piece_000.obj",
+        "meshes/ndgn-1/piece_001.obj",
+        "meshes/ndgn-1/piece_002.obj",
+        "meshes/ndgn-1/piece_003.obj",
+        "meshes/ndgn-1/piece_004.obj"
+      ],
+      "scale": 1.0
+    },
+    {
+      "object_id": "ndgn-2",
+      "half_extents": [
+        0.033889406999999996,
+        0.0221051502,
+        0.0444612408
+      ],
+      "mass": 0.1,
+      "friction": 0.8,
+      "visual_mesh": "meshes/ndgn-2/visual.obj",
+      "collision_meshes": [
+        "meshes/ndgn-2/piece_000.obj"
+      ],
+      "scale": 1.0
+    },
+    {
+      "object_id": "ndgn-3",
+      "half_extents": [
+        0.028671403499999998,
+        0.0168349842,
+        0.051204661199999994
+      ],
+      "mass": 0.1,
+      "friction": 0.8,
+      "visual_mesh": "meshes/ndgn-3/visual.obj",
+      "collision_meshes": [
+        "meshes/ndgn-3/piece_000.obj"
+      ],
+      "scale": 1.0
+    }
+  ]
+}

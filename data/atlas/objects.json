@@ -1,0 +1,229 @@
+{
+  "version": 1,
+  "objects": [
+    {
+      "object_id": "atlas-w-box-30x100",
+      "half_extents": [
+        0.015,
+        0.015,
+        0.05
+      ],
+      "mass": 0.15,
+      "friction": 0.8,
+      "visual_mesh": null,
+      "collision_meshes": [],
+      "scale": 1.0
+    },
+    {
+      "object_id": "atlas-w-box-30x150",
+      "half_extents": [
+        0.015,
+        0.015,
+        0.075
+      ],
+      "mass": 0.15,
+      "friction": 0.8,
+      "visual_mesh": null,
+      "collision_meshes": [],
+      "scale": 1.0
+    },
+    {
+      "object_id": "atlas-w-box-45x100",
+      "half_extents": [
+        0.0225,
+        0.0225,
+        0.05
+      ],
+      "mass": 0.15,
+      "friction": 0.8,
+      "visual_mesh": null,
+      "collision_meshes": [],
+      "scale": 1.0
+    },
+    {
+      "object_id": "atlas-w-box-45x150",
+      "half_extents": [
+        0.0225,
+        0.0225,
+        0.075
+      ],
+      "mass": 0.15,
+      "friction": 0.8,
+      "visual_mesh": null,
+      "collision_meshes": [],
+      "scale": 1.0
+    },
+    {
+      "object_id": "atlas-w-cyl-30x100",
+      "half_extents": [
+        0.015,
+        0.015,
+        0.05
+      ],
+      "mass": 0.15,
+      "friction": 0.8,
+      "visual_mesh": "meshes/atlas-w-cyl-30x100/visual.obj",
+      "collision_meshes": [
+        "meshes/atlas-w-cyl-30x100/piece_000.obj"
+      ],
+      "scale": 1.0
+    },
+    {
+      "object_id": "atlas-w-cyl-30x150",
+      "half_extents": [
+        0.015,
+        0.015,
+        0.075
+      ],
+      "mass": 0.15,
+      "friction": 0.8,
+      "visual_mesh": "meshes/atlas-w-cyl-30x150/visual.obj",
+      "collision_meshes": [
+        "meshes/atlas-w-cyl-30x150/piece_000.obj"
+      ],
+      "scale": 1.0
+    },
+    {
+      "object_id": "atlas-w-cyl-45x100",
+      "half_extents": [
+        0.0225,
+        0.0225,
+        0.05
+      ],
+      "mass": 0.15,
+      "friction": 0.8,
+      "visual_mesh": "meshes/atlas-w-cyl-45x100/visual.obj",
+      "collision_meshes": [
+        "meshes/atlas-w-cyl-45x100/piece_000.obj"
+      ],
+      "scale": 1.0
+    },
+    {
+      "object_id": "atlas-w-cyl-45x150",
+      "half_extents": [
+        0.0225,
+        0.0225,
+        0.075
+      ],
+      "mass": 0.15,
+      "friction": 0.8,
+      "visual_mesh": "meshes/atlas-w-cyl-45x150/visual.obj",
+      "collision_meshes": [
+        "meshes/atlas-w-cyl-45x150/piece_000.obj"
+      ],
+      "scale": 1.0
+    },
+    {
+      "object_id": "atlas-t-box-35x80",
+      "half_extents": [
+        0.0175,
+        0.0175,
+        0.04
+      ],
+      "mass": 0.15,
+      "friction": 0.8,
+      "visual_mesh": null,
+      "collision_meshes": [],
+      "scale": 1.0
+    },
+    {
+      "object_id": "atlas-t-box-35x130",
+      "half_extents": [
+        0.0175,
+        0.0175,
+        0.065
+      ],
+      "mass": 0.15,
+      "friction": 0.8,
+      "visual_mesh": null,
+      "collision_meshes": [],
+      "scale": 1.0
+    },
+    {
+      "object_id": "atlas-t-box-55x80",
+      "half_extents": [
+        0.0275,
+        0.0275,
+        0.04
+      ],
+      "mass": 0.15,
+      "friction": 0.8,
+      "visual_mesh": null,
+      "collision_meshes": [],
+      "scale": 1.0
+    },
+    {
+      "object_id": "atlas-t-box-55x130",
+      "half_extents": [
+        0.0275,
+        0.0275,
+        0.065
+      ],
+      "mass": 0.15,
+      "friction": 0.8,
+      "visual_mesh": null,
+      "collision_meshes": [],
+      "scale": 1.0
+    },
+    {
+      "object_id": "atlas-t-cyl-35x80",
+      "half_extents": [
+        0.0175,
+        0.0175,
+        0.04
+      ],
+      "mass": 0.15,
+      "friction": 0.8,
+      "visual_mesh": "meshes/atlas-t-cyl-35x80/visual.obj",
+      "collision_meshes": [
+        "meshes/atlas-t-cyl-35x80/piece_000.obj"
+      ],
+      "scale": 1.0
+    },
+    {
+      "object_id": "atlas-t-cyl-35x130",
+      "half_extents": [
+        0.0175,
+        0.0175,
+        0.065
+      ],
+      "mass": 0.15,
+      "friction": 0.8,
+      "visual_mesh": "meshes/atlas-t-cyl-35x130/visual.obj",
+      "collision_meshes": [
+        "meshes/atlas-t-cyl-35x130/piece_000.obj"
+      ],
+      "scale": 1.0
+    },
+    {
+      "object_id": "atlas-t-cyl-55x80",
+      "half_extents": [
+        0.0275,
+        0.0275,
+        0.04
+      ],
+      "mass": 0.15,
+      "friction": 0.8,
+      "visual_mesh": "meshes/atlas-t-cyl-55x80/visual.obj",
+      "collision_meshes": [
+        "meshes/atlas-t-cyl-55x80/piece_000.obj"
+      ],
+      "scale": 1.0
+    },
+    {
+      "object_id": "atlas-t-cyl-55x130",
+      "half_extents": [
+        0.0275,
+        0.0275,
+        0.065
+      ],
+      "mass": 0.15,
+      "friction": 0.8,
+      "visual_mesh": "meshes/atlas-t-cyl-55x130/visual.obj",
+      "collision_meshes": [
+        "meshes/atlas-t-cyl-55x130/piece_000.obj"
+      ],
+      "scale": 1.0
+    }
+  ]
+}

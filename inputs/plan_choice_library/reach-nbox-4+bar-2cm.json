@@ -1,0 +1,1 @@
+[{"pair": "nbox-4+bar-2cm", "plan": 0, "refusals": [null, null, null, null, null]}, {"pair": "nbox-4+bar-2cm", "plan": 1, "refusals": ["SECOND_PATH_COLLISION", "SECOND_UNREACHABLE"]}, {"pair": "nbox-4+bar-2cm", "plan": 2, "refusals": ["SECOND_UNREACHABLE", "SECOND_UNREACHABLE"]}]

@@ -1,0 +1,1 @@
+{"pair": ["ycb-sugar-box", "tall"], "first": "wrap", "second": "tripod", "first_tries": 150, "second_tries": 8, "headings_deg": [[325.0, 365.0]], "clear_table": true, "counts": {"FIRST_NO_CONTACT": 89, "FIRST_NOT_LIFTED": 46, "FIRST_OTHER_FINGER": 13, "FIRST_HELD": 2, "FIRST_LOST_MOVING": 16}, "plans": []}

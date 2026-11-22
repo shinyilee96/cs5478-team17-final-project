@@ -1,0 +1,7 @@
+Plan choice (Table 2): each rule's top 3 plans against a random plan, 47 held-out pairs, 20 robot pickups per plan; points of both objects held
+  R - random  +14.5 (+9.4 to +19.8)      report +14.5 (+9.4 to +19.8)      matches
+  P - random  +19.4 (+14.0 to +24.7)     report +19.4 (+14.0 to +24.7)     matches
+  E - random  +17.6 (+13.3 to +21.9)     report +17.6 (+13.3 to +21.9)     matches
+  P - R       +4.9 (-0.8 to +10.3)       report +4.9 (-0.8 to +10.3)       matches
+  E - R       +3.0 (-2.8 to +8.9)        report +3.0 (-2.8 to +8.9)        matches
+  all values match the report

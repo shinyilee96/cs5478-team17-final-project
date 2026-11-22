@@ -1,0 +1,9 @@
+# Made by reruns and on first use; never committed
+runs/
+data/urdf/
+datasets/
+# Python and tools
+__pycache__/
+*.py[cod]
+*.egg-info/
+.coverage*

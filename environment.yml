@@ -1,0 +1,30 @@
+# The environment the results were reproduced in (Windows 11, conda-forge). CPU only: no GPU is needed, training included.
+#   conda env create -f environment.yml
+#   conda activate team17-dexcarry-release
+#   pip install --force-reinstall --no-deps numpy==1.26.4
+# The last line matters for exact reruns: the recorded runs used NumPy's PyPI wheel, which carries its own OpenBLAS (0.3.23),
+# not conda-forge's NumPy (OpenBLAS 0.3.34). With conda's NumPy the simulator's floating-point sums come out slightly
+# differently and reruns drift from the recorded rows (they still agree within the report's intervals). SciPy uses
+# conda-forge's OpenBLAS, as recorded. Do not set OMP_NUM_THREADS or similar: thread counts also change the sums.
+name: team17-dexcarry-release
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.21
+  - numpy=1.26.4
+  - scipy=1.15.2
+  - libblas=*=*openblas
+  - libopenblas=0.3.34
+  - pybullet=3.25
+  - pandas=2.3.3
+  - matplotlib-base=3.10.9
+  - pyyaml=6.0.3
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cpu
+      - torch==2.6.0
+      - trimesh==5.1.0
+      - scikit-learn==1.7.2
+      - gymnasium==0.29.1
+      - stable-baselines3==2.3.2
+      - imageio==2.37.4

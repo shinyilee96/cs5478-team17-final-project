@@ -1,0 +1,144 @@
+{
+ "rule": "Round-table layouts: 12 held-out layouts of 4 to 6 test objects scattered on a cluttered round table, drawn once before any errand ran.",
+ "seed": 18,
+ "spacing": 0.27,
+ "band": [
+  [
+   0.42,
+   0.68
+  ],
+  [
+   -0.45,
+   0.45
+  ]
+ ],
+ "disc": {
+  "centre": [
+   0.55,
+   0.0
+  ],
+  "radius": 0.5,
+  "thickness": 0.05
+ },
+ "draw_stream": 31,
+ "restarts": 2000,
+ "pool": [
+  "bar-3cm",
+  "tall-heavy",
+  "can",
+  "dgn-can",
+  "nbox-1",
+  "nbox-2",
+  "nbox-3",
+  "nbox-4",
+  "ndgn-1",
+  "ndgn-2",
+  "ndgn-3",
+  "ndgn-4",
+  "ndgn-5",
+  "ndgn-6",
+  "ndgn-7",
+  "ndgn-8",
+  "ndgn-9"
+ ],
+ "wrappable": [
+  "bar-3cm",
+  "dgn-can",
+  "nbox-1",
+  "nbox-2",
+  "nbox-3",
+  "nbox-4",
+  "ndgn-5",
+  "ndgn-6",
+  "ndgn-7",
+  "ndgn-8",
+  "tall-heavy"
+ ],
+ "layouts": [
+  [
+   "nbox-2",
+   "dgn-can",
+   "ndgn-5",
+   "ndgn-9"
+  ],
+  [
+   "tall-heavy",
+   "ndgn-4",
+   "ndgn-7",
+   "ndgn-8"
+  ],
+  [
+   "ndgn-5",
+   "ndgn-9",
+   "ndgn-3",
+   "ndgn-1"
+  ],
+  [
+   "nbox-1",
+   "ndgn-2",
+   "ndgn-4",
+   "ndgn-9"
+  ],
+  [
+   "ndgn-3",
+   "ndgn-6",
+   "nbox-4",
+   "ndgn-2",
+   "bar-3cm"
+  ],
+  [
+   "ndgn-1",
+   "dgn-can",
+   "can",
+   "ndgn-2",
+   "ndgn-8"
+  ],
+  [
+   "ndgn-9",
+   "tall-heavy",
+   "ndgn-7",
+   "bar-3cm",
+   "ndgn-4"
+  ],
+  [
+   "ndgn-9",
+   "ndgn-8",
+   "ndgn-2",
+   "ndgn-4",
+   "nbox-4"
+  ],
+  [
+   "nbox-3",
+   "nbox-2",
+   "ndgn-9",
+   "ndgn-7",
+   "ndgn-6",
+   "ndgn-2"
+  ],
+  [
+   "ndgn-5",
+   "ndgn-7",
+   "can",
+   "ndgn-1",
+   "ndgn-4",
+   "tall-heavy"
+  ],
+  [
+   "ndgn-3",
+   "ndgn-4",
+   "ndgn-1",
+   "can",
+   "nbox-2",
+   "ndgn-6"
+  ],
+  [
+   "ndgn-6",
+   "bar-3cm",
+   "ndgn-3",
+   "dgn-can",
+   "ndgn-4",
+   "can"
+  ]
+ ],
+ "plans": "inputs/errand_plans.json"
+}
